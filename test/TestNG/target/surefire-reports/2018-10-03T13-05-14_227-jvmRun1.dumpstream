@@ -1,0 +1,35 @@
+# Created at 2018-10-03T14:23:30.896
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-10-03T14:23:46.009
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC28_PLPSortByTest,tc28_pLPSortByTest(com.michaels.mobile.test.TC28_PLPSortByTest),com.michaels.mobile.test.TC28_PLPSortByTest,null,null
+
+
+# Created at 2018-10-03T14:23:46.012
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T14:23:46.014
+Unexpected IOException with stream: tc28_pLPSortByTesttest is started
+
+
+# Created at 2018-10-03T14:23:46.027
+Unexpected IOException with stream: 10-03-2018 14:23:46 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+
+
+# Created at 2018-10-03T14:24:06.888
+Unexpected IOException with stream: Oct 03, 2018 2:24:06 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://10.20.19.45:4723: The target server failed to respond
+
+
+# Created at 2018-10-03T14:24:06.890
+Unexpected IOException with stream: Oct 03, 2018 2:24:06 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://10.20.19.45:4723
+
+

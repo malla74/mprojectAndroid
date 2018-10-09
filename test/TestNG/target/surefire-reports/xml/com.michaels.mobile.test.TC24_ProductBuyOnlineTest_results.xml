@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="85.987">
+  <properties />
+  
+  
+            <testcase name="tc24_productBuyOnlineTest" time="85.987" classname="com.michaels.mobile.test.TC24_ProductBuyOnlineTest" />
+      
+</testsuite>

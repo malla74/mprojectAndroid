@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="77.719">
+  <properties />
+  
+  
+            <testcase name="tc03_appGuideSignInTest" time="77.719" classname="com.michaels.mobile.test.TC03_AppGuideSignInTest" />
+      
+</testsuite>

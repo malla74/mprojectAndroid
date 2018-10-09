@@ -1,0 +1,1675 @@
+# Created at 2018-10-03T13:01:38.180
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-10-03T13:01:55.966
+Unexpected IOException with stream: Oct 03, 2018 1:01:55 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://10.20.19.45:4723: The target server failed to respond
+
+
+# Created at 2018-10-03T13:01:55.969
+Unexpected IOException with stream: Oct 03, 2018 1:01:55 PM org.apache.http.impl.execchain.RetryExec execute
+INFO: Retrying request to {}->http://10.20.19.45:4723
+
+
+# Created at 2018-10-03T13:01:56.979
+Unexpected IOException: 8,1,com.michaels.mobile.test.TC05_CreateAccountSignInTest,setUpPage(com.michaels.mobile.test.TC05_CreateAccountSignInTest),null,Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'KH170_TEMP'\002C ip: '10.20.25.35'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: driver.version: IOSDriver,null,Connection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'KH170_TEMP'\002C ip: '10.20.25.35'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: driver.version: IOSDriver,TC05_CreateAccountSignInTest.setUpPage:31 \00BB WebDriver Connection refused: conn...,org.openqa.selenium.WebDriverException: \000AConnection refused: connect\000ABuild info: version: '3.12.0'\002C revision: '7c6e0b3'\002C time: '2018-05-08T14:04:26.12Z'\000ASystem info: host: 'KH170_TEMP'\002C ip: '10.20.25.35'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_171'\000ADriver info: driver.version: IOSDriver\000A\0009at com.michaels.mobile.test.TC05_CreateAccountSignInTest.setUpPage(TC05_CreateAccountSignInTest.java:31)\000ACaused by: java.net.ConnectException: Connection refused: connect\000A\0009at com.michaels.mobile.test.TC05_CreateAccountSignInTest.setUpPage(TC05_CreateAccountSignInTest.java:31)\000A
+
+
+# Created at 2018-10-03T13:01:56.980
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC05_CreateAccountSignInTest,tc05_createAccountSignInTest(com.michaels.mobile.test.TC05_CreateAccountSignInTest),com.michaels.mobile.test.TC05_CreateAccountSignInTest,null,null
+
+
+# Created at 2018-10-03T13:01:56.981
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:56.982
+Unexpected IOException with stream: tc05_createAccountSignInTesttest is started
+
+
+# Created at 2018-10-03T13:01:56.983
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC05_CreateAccountSignInTest,tc05_createAccountSignInTest(com.michaels.mobile.test.TC05_CreateAccountSignInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.984
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC05_CreateAccountSignInTest,closeApp(com.michaels.mobile.test.TC05_CreateAccountSignInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.986
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC06_TC07_HomeTileClickTest,intializingDriver(com.michaels.mobile.test.TC06_TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.987
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC06_TC07_HomeTileClickTest,setUpPage(com.michaels.mobile.test.TC06_TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.989
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC06_TC07_HomeTileClickTest,tc06_tc07_homeTileClickTest(com.michaels.mobile.test.TC06_TC07_HomeTileClickTest),com.michaels.mobile.test.TC06_TC07_HomeTileClickTest,null,null
+
+
+# Created at 2018-10-03T13:01:56.990
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:56.991
+Unexpected IOException with stream: tc06_tc07_homeTileClickTesttest is started
+
+
+# Created at 2018-10-03T13:01:56.993
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC06_TC07_HomeTileClickTest,tc06_tc07_homeTileClickTest(com.michaels.mobile.test.TC06_TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.993
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC06_TC07_HomeTileClickTest,closeApp(com.michaels.mobile.test.TC06_TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.994
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC07_HomeTileClickTest,intializingDriver(com.michaels.mobile.test.TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.995
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC07_HomeTileClickTest,setUpPage(com.michaels.mobile.test.TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.996
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC07_HomeTileClickTest,tc06_tc07_homeTileClickTest(com.michaels.mobile.test.TC07_HomeTileClickTest),com.michaels.mobile.test.TC07_HomeTileClickTest,null,null
+
+
+# Created at 2018-10-03T13:01:56.997
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:56.997
+Unexpected IOException with stream: tc06_tc07_homeTileClickTesttest is started
+
+
+# Created at 2018-10-03T13:01:56.998
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC07_HomeTileClickTest,tc06_tc07_homeTileClickTest(com.michaels.mobile.test.TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:56.999
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC07_HomeTileClickTest,closeApp(com.michaels.mobile.test.TC07_HomeTileClickTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.000
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC08_HomePageCarouselTest,intializingDriver(com.michaels.mobile.test.TC08_HomePageCarouselTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.001
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC08_HomePageCarouselTest,setUpPage(com.michaels.mobile.test.TC08_HomePageCarouselTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.001
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC08_HomePageCarouselTest,tc08_homePageCarouselTest(com.michaels.mobile.test.TC08_HomePageCarouselTest),com.michaels.mobile.test.TC08_HomePageCarouselTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.002
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.002
+Unexpected IOException with stream: tc08_homePageCarouselTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.003
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC08_HomePageCarouselTest,tc08_homePageCarouselTest(com.michaels.mobile.test.TC08_HomePageCarouselTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.005
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC08_HomePageCarouselTest,closeApp(com.michaels.mobile.test.TC08_HomePageCarouselTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.006
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest,intializingDriver(com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.007
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest,setUpPage(com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.007
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest,tc09_homeCarouselClickNavigateTest(com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest),com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.008
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.009
+Unexpected IOException with stream: tc09_homeCarouselClickNavigateTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.010
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest,tc09_homeCarouselClickNavigateTest(com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.012
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest,closeApp(com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.014
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest,intializingDriver(com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.015
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest,setUpPage(com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.016
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest,tc10_homeCarouselClickNavigateTest(com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest),com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.017
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.017
+Unexpected IOException with stream: tc10_homeCarouselClickNavigateTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.018
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest,tc10_homeCarouselClickNavigateTest(com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.019
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest,closeApp(com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.020
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest,intializingDriver(com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.021
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest,setUpPage(com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.023
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest,tc11_setFavouriteStoreUsingZipCodeTest(com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest),com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.024
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.025
+Unexpected IOException with stream: tc11_setFavouriteStoreUsingZipCodeTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.026
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest,tc11_setFavouriteStoreUsingZipCodeTest(com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.027
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest,closeApp(com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.028
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest,intializingDriver(com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.029
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest,setUpPage(com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.030
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest,tc12_setFavouriteStoreUsingAddressTest(com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest),com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.031
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.032
+Unexpected IOException with stream: tc12_setFavouriteStoreUsingAddressTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.033
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest,tc12_setFavouriteStoreUsingAddressTest(com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.034
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest,closeApp(com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.035
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest,intializingDriver(com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.036
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest,setUpPage(com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.038
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest,tc13_changeFavouriteStoreTest(com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest),com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.039
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.040
+Unexpected IOException with stream: tc13_changeFavouriteStoreTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.041
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest,tc13_changeFavouriteStoreTest(com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.041
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest,closeApp(com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.042
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest,intializingDriver(com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.043
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest,setUpPage(com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.044
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest,tc14_removeFavouriteStoreTest(com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest),com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.045
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.046
+Unexpected IOException with stream: tc14_removeFavouriteStoreTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.047
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest,tc14_removeFavouriteStoreTest(com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.048
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest,closeApp(com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.049
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC15_CallStoreTest,intializingDriver(com.michaels.mobile.test.TC15_CallStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.050
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC15_CallStoreTest,setUpPage(com.michaels.mobile.test.TC15_CallStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.051
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC15_CallStoreTest,tc15_callStoreTest(com.michaels.mobile.test.TC15_CallStoreTest),com.michaels.mobile.test.TC15_CallStoreTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.051
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.052
+Unexpected IOException with stream: tc15_callStoreTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.053
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC15_CallStoreTest,tc15_callStoreTest(com.michaels.mobile.test.TC15_CallStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.054
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC15_CallStoreTest,closeApp(com.michaels.mobile.test.TC15_CallStoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.055
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC16_StoreMapTest,intializingDriver(com.michaels.mobile.test.TC16_StoreMapTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.055
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC16_StoreMapTest,setUpPage(com.michaels.mobile.test.TC16_StoreMapTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.056
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC16_StoreMapTest,tc16_storeMapTest(com.michaels.mobile.test.TC16_StoreMapTest),com.michaels.mobile.test.TC16_StoreMapTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.056
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.057
+Unexpected IOException with stream: tc16_storeMapTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.058
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC16_StoreMapTest,tc16_storeMapTest(com.michaels.mobile.test.TC16_StoreMapTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.059
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC16_StoreMapTest,closeApp(com.michaels.mobile.test.TC16_StoreMapTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.060
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC17_ProductWayFindingTest,intializingDriver(com.michaels.mobile.test.TC17_ProductWayFindingTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.061
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC17_ProductWayFindingTest,setUpPage(com.michaels.mobile.test.TC17_ProductWayFindingTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.062
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC17_ProductWayFindingTest,tc17_productWayFindingTest(com.michaels.mobile.test.TC17_ProductWayFindingTest),com.michaels.mobile.test.TC17_ProductWayFindingTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.063
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.064
+Unexpected IOException with stream: tc17_productWayFindingTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.064
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC17_ProductWayFindingTest,tc17_productWayFindingTest(com.michaels.mobile.test.TC17_ProductWayFindingTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.065
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC17_ProductWayFindingTest,closeApp(com.michaels.mobile.test.TC17_ProductWayFindingTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.066
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC18_ProductsListPageTest,intializingDriver(com.michaels.mobile.test.TC18_ProductsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.067
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC18_ProductsListPageTest,setUpPage(com.michaels.mobile.test.TC18_ProductsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.067
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC18_ProductsListPageTest,tc18_productsListPageTest(com.michaels.mobile.test.TC18_ProductsListPageTest),com.michaels.mobile.test.TC18_ProductsListPageTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.068
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.068
+Unexpected IOException with stream: tc18_productsListPageTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.069
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC18_ProductsListPageTest,tc18_productsListPageTest(com.michaels.mobile.test.TC18_ProductsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.070
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC18_ProductsListPageTest,closeApp(com.michaels.mobile.test.TC18_ProductsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.071
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC19_ProductsListPageScrollTest,intializingDriver(com.michaels.mobile.test.TC19_ProductsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.072
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC19_ProductsListPageScrollTest,setUpPage(com.michaels.mobile.test.TC19_ProductsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.073
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC19_ProductsListPageScrollTest,tc19_productsListPageScrollTest(com.michaels.mobile.test.TC19_ProductsListPageScrollTest),com.michaels.mobile.test.TC19_ProductsListPageScrollTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.074
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.075
+Unexpected IOException with stream: tc19_productsListPageScrollTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.076
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC19_ProductsListPageScrollTest,tc19_productsListPageScrollTest(com.michaels.mobile.test.TC19_ProductsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.077
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC19_ProductsListPageScrollTest,closeApp(com.michaels.mobile.test.TC19_ProductsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.079
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC20_ProductDetailsPageTest,intializingDriver(com.michaels.mobile.test.TC20_ProductDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.080
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC20_ProductDetailsPageTest,setUpPage(com.michaels.mobile.test.TC20_ProductDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.081
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC20_ProductDetailsPageTest,tc20_productDetailsPageTest(com.michaels.mobile.test.TC20_ProductDetailsPageTest),com.michaels.mobile.test.TC20_ProductDetailsPageTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.081
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.082
+Unexpected IOException with stream: tc20_productDetailsPageTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.083
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC20_ProductDetailsPageTest,tc20_productDetailsPageTest(com.michaels.mobile.test.TC20_ProductDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.084
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC20_ProductDetailsPageTest,closeApp(com.michaels.mobile.test.TC20_ProductDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.085
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC21_CouponsSignInTest,intializingDriver(com.michaels.mobile.test.TC21_CouponsSignInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.086
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC21_CouponsSignInTest,setUpPage(com.michaels.mobile.test.TC21_CouponsSignInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.087
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC21_CouponsSignInTest,tc21_couponsSignInTest(com.michaels.mobile.test.TC21_CouponsSignInTest),com.michaels.mobile.test.TC21_CouponsSignInTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.090
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.090
+Unexpected IOException with stream: tc21_couponsSignInTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.091
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC21_CouponsSignInTest,tc21_couponsSignInTest(com.michaels.mobile.test.TC21_CouponsSignInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.092
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC21_CouponsSignInTest,closeApp(com.michaels.mobile.test.TC21_CouponsSignInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.094
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC22_ProductAddToMyListTest,intializingDriver(com.michaels.mobile.test.TC22_ProductAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.095
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC22_ProductAddToMyListTest,setUpPage(com.michaels.mobile.test.TC22_ProductAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.096
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC22_ProductAddToMyListTest,tc22_productAddToMyListTest(com.michaels.mobile.test.TC22_ProductAddToMyListTest),com.michaels.mobile.test.TC22_ProductAddToMyListTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.098
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.098
+Unexpected IOException with stream: tc22_productAddToMyListTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.100
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC22_ProductAddToMyListTest,tc22_productAddToMyListTest(com.michaels.mobile.test.TC22_ProductAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.100
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC22_ProductAddToMyListTest,closeApp(com.michaels.mobile.test.TC22_ProductAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.102
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest,intializingDriver(com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.103
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest,setUpPage(com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.104
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest,tc23_productAddToMyListNotSignedInTest(com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest),com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.104
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.105
+Unexpected IOException with stream: tc23_productAddToMyListNotSignedInTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.106
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest,tc23_productAddToMyListNotSignedInTest(com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.107
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest,closeApp(com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.108
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC24_ProductBuyOnlineTest,intializingDriver(com.michaels.mobile.test.TC24_ProductBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.109
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC24_ProductBuyOnlineTest,setUpPage(com.michaels.mobile.test.TC24_ProductBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.110
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC24_ProductBuyOnlineTest,tc24_productBuyOnlineTest(com.michaels.mobile.test.TC24_ProductBuyOnlineTest),com.michaels.mobile.test.TC24_ProductBuyOnlineTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.111
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.112
+Unexpected IOException with stream: tc24_productBuyOnlineTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.113
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC24_ProductBuyOnlineTest,tc24_productBuyOnlineTest(com.michaels.mobile.test.TC24_ProductBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.114
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC24_ProductBuyOnlineTest,closeApp(com.michaels.mobile.test.TC24_ProductBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.115
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest,intializingDriver(com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.116
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest,setUpPage(com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.117
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest,tc25_productCheckNearByStoresTest(com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest),com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.117
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.118
+Unexpected IOException with stream: tc25_productCheckNearByStoresTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.119
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest,tc25_productCheckNearByStoresTest(com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.120
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest,closeApp(com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.120
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC26_RecommendedProductsPDPTest,intializingDriver(com.michaels.mobile.test.TC26_RecommendedProductsPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.121
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC26_RecommendedProductsPDPTest,setUpPage(com.michaels.mobile.test.TC26_RecommendedProductsPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.122
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC26_RecommendedProductsPDPTest,tc26_recommendedProductsPDPTest(com.michaels.mobile.test.TC26_RecommendedProductsPDPTest),com.michaels.mobile.test.TC26_RecommendedProductsPDPTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.123
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.124
+Unexpected IOException with stream: tc26_recommendedProductsPDPTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.125
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC26_RecommendedProductsPDPTest,tc26_recommendedProductsPDPTest(com.michaels.mobile.test.TC26_RecommendedProductsPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.126
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC26_RecommendedProductsPDPTest,closeApp(com.michaels.mobile.test.TC26_RecommendedProductsPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.127
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest,intializingDriver(com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.128
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest,setUpPage(com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.129
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest,tc27_showMoreUpto15ProductsTest(com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest),com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.130
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.131
+Unexpected IOException with stream: tc27_showMoreUpto15ProductsTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.131
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest,tc27_showMoreUpto15ProductsTest(com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.132
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest,closeApp(com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.133
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC28_PLPSortByTest,intializingDriver(com.michaels.mobile.test.TC28_PLPSortByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.134
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC28_PLPSortByTest,setUpPage(com.michaels.mobile.test.TC28_PLPSortByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.135
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC28_PLPSortByTest,tc28_pLPSortByTest(com.michaels.mobile.test.TC28_PLPSortByTest),com.michaels.mobile.test.TC28_PLPSortByTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.136
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.136
+Unexpected IOException with stream: tc28_pLPSortByTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.137
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC28_PLPSortByTest,tc28_pLPSortByTest(com.michaels.mobile.test.TC28_PLPSortByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.138
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC28_PLPSortByTest,closeApp(com.michaels.mobile.test.TC28_PLPSortByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.139
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC29_PLPShopByTest,intializingDriver(com.michaels.mobile.test.TC29_PLPShopByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.140
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC29_PLPShopByTest,setUpPage(com.michaels.mobile.test.TC29_PLPShopByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.141
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC29_PLPShopByTest,tc29_pLPShopByTest(com.michaels.mobile.test.TC29_PLPShopByTest),com.michaels.mobile.test.TC29_PLPShopByTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.141
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.142
+Unexpected IOException with stream: tc29_pLPShopByTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.143
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC29_PLPShopByTest,tc29_pLPShopByTest(com.michaels.mobile.test.TC29_PLPShopByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.144
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC29_PLPShopByTest,closeApp(com.michaels.mobile.test.TC29_PLPShopByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.145
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC30_PLPRefineByTest,intializingDriver(com.michaels.mobile.test.TC30_PLPRefineByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.146
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC30_PLPRefineByTest,setUpPage(com.michaels.mobile.test.TC30_PLPRefineByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.148
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC30_PLPRefineByTest,tc30_pLPRefineByTest(com.michaels.mobile.test.TC30_PLPRefineByTest),com.michaels.mobile.test.TC30_PLPRefineByTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.148
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.149
+Unexpected IOException with stream: tc30_pLPRefineByTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.149
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC30_PLPRefineByTest,tc30_pLPRefineByTest(com.michaels.mobile.test.TC30_PLPRefineByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.150
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC30_PLPRefineByTest,closeApp(com.michaels.mobile.test.TC30_PLPRefineByTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.150
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC31_ProjectsLandingPageTest,intializingDriver(com.michaels.mobile.test.TC31_ProjectsLandingPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.151
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC31_ProjectsLandingPageTest,setUpPage(com.michaels.mobile.test.TC31_ProjectsLandingPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.152
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC31_ProjectsLandingPageTest,tc31_projectsLandingPageTest(com.michaels.mobile.test.TC31_ProjectsLandingPageTest),com.michaels.mobile.test.TC31_ProjectsLandingPageTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.153
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.154
+Unexpected IOException with stream: tc31_projectsLandingPageTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.154
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC31_ProjectsLandingPageTest,tc31_projectsLandingPageTest(com.michaels.mobile.test.TC31_ProjectsLandingPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.155
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC31_ProjectsLandingPageTest,closeApp(com.michaels.mobile.test.TC31_ProjectsLandingPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.156
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC32_ProjectsListPageTest,intializingDriver(com.michaels.mobile.test.TC32_ProjectsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.157
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC32_ProjectsListPageTest,setUpPage(com.michaels.mobile.test.TC32_ProjectsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.158
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC32_ProjectsListPageTest,tc32_projectsListPageTest(com.michaels.mobile.test.TC32_ProjectsListPageTest),com.michaels.mobile.test.TC32_ProjectsListPageTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.159
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.160
+Unexpected IOException with stream: tc32_projectsListPageTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.161
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC32_ProjectsListPageTest,tc32_projectsListPageTest(com.michaels.mobile.test.TC32_ProjectsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.162
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC32_ProjectsListPageTest,closeApp(com.michaels.mobile.test.TC32_ProjectsListPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.163
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC33_ProjectsListPageScrollTest,intializingDriver(com.michaels.mobile.test.TC33_ProjectsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.164
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC33_ProjectsListPageScrollTest,setUpPage(com.michaels.mobile.test.TC33_ProjectsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.165
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC33_ProjectsListPageScrollTest,tc33_projectsListPageScrollTest(com.michaels.mobile.test.TC33_ProjectsListPageScrollTest),com.michaels.mobile.test.TC33_ProjectsListPageScrollTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.165
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.166
+Unexpected IOException with stream: tc33_projectsListPageScrollTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.167
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC33_ProjectsListPageScrollTest,tc33_projectsListPageScrollTest(com.michaels.mobile.test.TC33_ProjectsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.167
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC33_ProjectsListPageScrollTest,closeApp(com.michaels.mobile.test.TC33_ProjectsListPageScrollTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.168
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC34_ProjectDetailsPageTest,intializingDriver(com.michaels.mobile.test.TC34_ProjectDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.169
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC34_ProjectDetailsPageTest,setUpPage(com.michaels.mobile.test.TC34_ProjectDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.170
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC34_ProjectDetailsPageTest,tc34_projectDetailsPageTest(com.michaels.mobile.test.TC34_ProjectDetailsPageTest),com.michaels.mobile.test.TC34_ProjectDetailsPageTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.171
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.171
+Unexpected IOException with stream: tc34_projectDetailsPageTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.172
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC34_ProjectDetailsPageTest,tc34_projectDetailsPageTest(com.michaels.mobile.test.TC34_ProjectDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.173
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC34_ProjectDetailsPageTest,closeApp(com.michaels.mobile.test.TC34_ProjectDetailsPageTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.174
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest,intializingDriver(com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.175
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest,setUpPage(com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.176
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest,tc35_projectsBuyOnlineTest(com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest),com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.176
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.177
+Unexpected IOException with stream: tc35_projectsBuyOnlineTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.178
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest,tc35_projectsBuyOnlineTest(com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.179
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest,closeApp(com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.181
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest,intializingDriver(com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.181
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest,setUpPage(com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.182
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest,tc36_pJLPRefineBySkillLevelTest(com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest),com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.183
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.183
+Unexpected IOException with stream: tc36_pJLPRefineBySkillLevelTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.184
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest,tc36_pJLPRefineBySkillLevelTest(com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.185
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest,closeApp(com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.186
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest,intializingDriver(com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.186
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest,setUpPage(com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.187
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest,tc37_pJLPRefineByCraftingTimeTest(com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest),com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.188
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.189
+Unexpected IOException with stream: tc37_pJLPRefineByCraftingTimeTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.190
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest,tc37_pJLPRefineByCraftingTimeTest(com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.191
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest,closeApp(com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.192
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC38_TextSearchOneWordTest,intializingDriver(com.michaels.mobile.test.TC38_TextSearchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.193
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC38_TextSearchOneWordTest,setUpPage(com.michaels.mobile.test.TC38_TextSearchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.194
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC38_TextSearchOneWordTest,tc38_textSearchOneWordTest(com.michaels.mobile.test.TC38_TextSearchOneWordTest),com.michaels.mobile.test.TC38_TextSearchOneWordTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.195
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.197
+Unexpected IOException with stream: tc38_textSearchOneWordTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.198
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC38_TextSearchOneWordTest,tc38_textSearchOneWordTest(com.michaels.mobile.test.TC38_TextSearchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.199
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC38_TextSearchOneWordTest,closeApp(com.michaels.mobile.test.TC38_TextSearchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.200
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC39_TextSearchOneProductIdTest,intializingDriver(com.michaels.mobile.test.TC39_TextSearchOneProductIdTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.201
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC39_TextSearchOneProductIdTest,setUpPage(com.michaels.mobile.test.TC39_TextSearchOneProductIdTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.202
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC39_TextSearchOneProductIdTest,tc39_textSearchOneProductIdTest(com.michaels.mobile.test.TC39_TextSearchOneProductIdTest),com.michaels.mobile.test.TC39_TextSearchOneProductIdTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.203
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.204
+Unexpected IOException with stream: tc39_textSearchOneProductIdTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.206
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC39_TextSearchOneProductIdTest,tc39_textSearchOneProductIdTest(com.michaels.mobile.test.TC39_TextSearchOneProductIdTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.207
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC39_TextSearchOneProductIdTest,closeApp(com.michaels.mobile.test.TC39_TextSearchOneProductIdTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.208
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest,intializingDriver(com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.208
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest,setUpPage(com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.209
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest,tc40_textSearchMorethan1WordTest(com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest),com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.210
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.212
+Unexpected IOException with stream: tc40_textSearchMorethan1WordTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.213
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest,tc40_textSearchMorethan1WordTest(com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.215
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest,closeApp(com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.215
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest,intializingDriver(com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.216
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest,setUpPage(com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.217
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest,tc41_textSearchFrenchOneWordTest(com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest),com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.218
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.218
+Unexpected IOException with stream: tc41_textSearchFrenchOneWordTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.219
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest,tc41_textSearchFrenchOneWordTest(com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.220
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest,closeApp(com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.221
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest,intializingDriver(com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.222
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest,setUpPage(com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.223
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest,tc42_textSearchFrenchTwoWordTest(com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest),com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.224
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.225
+Unexpected IOException with stream: tc42_textSearchFrenchTwoWordTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.225
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest,tc42_textSearchFrenchTwoWordTest(com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.226
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest,closeApp(com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.227
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC43_SignInMoreMenuTest,intializingDriver(com.michaels.mobile.test.TC43_SignInMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.228
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC43_SignInMoreMenuTest,setUpPage(com.michaels.mobile.test.TC43_SignInMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.230
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC43_SignInMoreMenuTest,tc43_signInMoreMenuTest(com.michaels.mobile.test.TC43_SignInMoreMenuTest),com.michaels.mobile.test.TC43_SignInMoreMenuTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.231
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.233
+Unexpected IOException with stream: tc43_signInMoreMenuTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.233
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC43_SignInMoreMenuTest,tc43_signInMoreMenuTest(com.michaels.mobile.test.TC43_SignInMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.234
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC43_SignInMoreMenuTest,closeApp(com.michaels.mobile.test.TC43_SignInMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.235
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC44_SignInFromMyListScreenTest,intializingDriver(com.michaels.mobile.test.TC44_SignInFromMyListScreenTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.236
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC44_SignInFromMyListScreenTest,setUpPage(com.michaels.mobile.test.TC44_SignInFromMyListScreenTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.236
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC44_SignInFromMyListScreenTest,tc44_signInFromMyListScreenTest(com.michaels.mobile.test.TC44_SignInFromMyListScreenTest),com.michaels.mobile.test.TC44_SignInFromMyListScreenTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.237
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.238
+Unexpected IOException with stream: tc44_signInFromMyListScreenTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.239
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC44_SignInFromMyListScreenTest,tc44_signInFromMyListScreenTest(com.michaels.mobile.test.TC44_SignInFromMyListScreenTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.240
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC44_SignInFromMyListScreenTest,closeApp(com.michaels.mobile.test.TC44_SignInFromMyListScreenTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.240
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC45_SignInFromPDPTest,intializingDriver(com.michaels.mobile.test.TC45_SignInFromPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.241
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC45_SignInFromPDPTest,setUpPage(com.michaels.mobile.test.TC45_SignInFromPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.242
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC45_SignInFromPDPTest,tc45_signInFromPDPTest(com.michaels.mobile.test.TC45_SignInFromPDPTest),com.michaels.mobile.test.TC45_SignInFromPDPTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.242
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.243
+Unexpected IOException with stream: tc45_signInFromPDPTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.243
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC45_SignInFromPDPTest,tc45_signInFromPDPTest(com.michaels.mobile.test.TC45_SignInFromPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.245
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC45_SignInFromPDPTest,closeApp(com.michaels.mobile.test.TC45_SignInFromPDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.245
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC46_SignInFromPJDPTest,intializingDriver(com.michaels.mobile.test.TC46_SignInFromPJDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.246
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC46_SignInFromPJDPTest,setUpPage(com.michaels.mobile.test.TC46_SignInFromPJDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.247
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC46_SignInFromPJDPTest,tc46_signInFromPJDPTest(com.michaels.mobile.test.TC46_SignInFromPJDPTest),com.michaels.mobile.test.TC46_SignInFromPJDPTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.248
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.248
+Unexpected IOException with stream: tc46_signInFromPJDPTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.249
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC46_SignInFromPJDPTest,tc46_signInFromPJDPTest(com.michaels.mobile.test.TC46_SignInFromPJDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.250
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC46_SignInFromPJDPTest,closeApp(com.michaels.mobile.test.TC46_SignInFromPJDPTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.251
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest,intializingDriver(com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.251
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest,setUpPage(com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.253
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest,tc47_signInFromRewardsProgramInfoTest(com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest),com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.254
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.254
+Unexpected IOException with stream: tc47_signInFromRewardsProgramInfoTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.255
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest,tc47_signInFromRewardsProgramInfoTest(com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.256
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest,closeApp(com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.257
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest,intializingDriver(com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.258
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest,setUpPage(com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.258
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest,tc48_signUpFromMoreMenuTest(com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest),com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.259
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.260
+Unexpected IOException with stream: tc48_signUpFromMoreMenuTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.260
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest,tc48_signUpFromMoreMenuTest(com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.262
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest,closeApp(com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.263
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest,intializingDriver(com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.264
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest,setUpPage(com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.265
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest,tc11_setFavouriteStoreUsingZipCodeTest(com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest),com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.265
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.266
+Unexpected IOException with stream: tc11_setFavouriteStoreUsingZipCodeTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.267
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest,tc11_setFavouriteStoreUsingZipCodeTest(com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.268
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest,closeApp(com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.269
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC50_StoreInfoTest,intializingDriver(com.michaels.mobile.test.TC50_StoreInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.269
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC50_StoreInfoTest,setUpPage(com.michaels.mobile.test.TC50_StoreInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.270
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC50_StoreInfoTest,tc50_storeInfoTest(com.michaels.mobile.test.TC50_StoreInfoTest),com.michaels.mobile.test.TC50_StoreInfoTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.271
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.271
+Unexpected IOException with stream: tc50_storeInfoTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.272
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC50_StoreInfoTest,tc50_storeInfoTest(com.michaels.mobile.test.TC50_StoreInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.273
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC50_StoreInfoTest,closeApp(com.michaels.mobile.test.TC50_StoreInfoTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.274
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest,intializingDriver(com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.275
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest,setUpPage(com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.276
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest,tc51_couponAddToWalletfromHomeTest(com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest),com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.276
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.277
+Unexpected IOException with stream: tc51_couponAddToWalletfromHomeTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.279
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest,tc51_couponAddToWalletfromHomeTest(com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.280
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest,closeApp(com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.280
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC52_ProjectsAddToMyListTest,intializingDriver(com.michaels.mobile.test.TC52_ProjectsAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.281
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC52_ProjectsAddToMyListTest,setUpPage(com.michaels.mobile.test.TC52_ProjectsAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.281
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC52_ProjectsAddToMyListTest,tc52_projectsAddToMyListTest(com.michaels.mobile.test.TC52_ProjectsAddToMyListTest),com.michaels.mobile.test.TC52_ProjectsAddToMyListTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.282
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.282
+Unexpected IOException with stream: tc52_projectsAddToMyListTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.283
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC52_ProjectsAddToMyListTest,tc52_projectsAddToMyListTest(com.michaels.mobile.test.TC52_ProjectsAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.283
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC52_ProjectsAddToMyListTest,closeApp(com.michaels.mobile.test.TC52_ProjectsAddToMyListTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.284
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn,intializingDriver(com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.285
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn,setUpPage(com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.286
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn,tc53_pJDPAddtoMyListNotLoggedIn(com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn),com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn,null,null
+
+
+# Created at 2018-10-03T13:01:57.286
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.287
+Unexpected IOException with stream: tc53_pJDPAddtoMyListNotLoggedIntest is started
+
+
+# Created at 2018-10-03T13:01:57.287
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn,tc53_pJDPAddtoMyListNotLoggedIn(com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.288
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn,closeApp(com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.288
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC56_PJDPFindItTest,intializingDriver(com.michaels.mobile.test.TC56_PJDPFindItTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.289
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC56_PJDPFindItTest,setUpPage(com.michaels.mobile.test.TC56_PJDPFindItTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.290
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC56_PJDPFindItTest,tc56_pJDPFindItTest(com.michaels.mobile.test.TC56_PJDPFindItTest),com.michaels.mobile.test.TC56_PJDPFindItTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.290
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.291
+Unexpected IOException with stream: tc56_pJDPFindItTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.292
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC56_PJDPFindItTest,tc56_pJDPFindItTest(com.michaels.mobile.test.TC56_PJDPFindItTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.292
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC56_PJDPFindItTest,closeApp(com.michaels.mobile.test.TC56_PJDPFindItTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.293
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC57_HomePageTilesTest,intializingDriver(com.michaels.mobile.test.TC57_HomePageTilesTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.294
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC57_HomePageTilesTest,setUpPage(com.michaels.mobile.test.TC57_HomePageTilesTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.294
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC57_HomePageTilesTest,tc57_homePageTilesTest(com.michaels.mobile.test.TC57_HomePageTilesTest),com.michaels.mobile.test.TC57_HomePageTilesTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.295
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.296
+Unexpected IOException with stream: tc57_homePageTilesTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.297
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC57_HomePageTilesTest,tc57_homePageTilesTest(com.michaels.mobile.test.TC57_HomePageTilesTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.298
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC57_HomePageTilesTest,closeApp(com.michaels.mobile.test.TC57_HomePageTilesTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.299
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest,intializingDriver(com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.299
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest,setUpPage(com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.300
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest,tc58_couponsListWithoutStoreSetTest(com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest),com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.301
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.302
+Unexpected IOException with stream: tc58_couponsListWithoutStoreSetTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.303
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest,tc58_couponsListWithoutStoreSetTest(com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.303
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest,closeApp(com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.303
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest,intializingDriver(com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.304
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest,setUpPage(com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.305
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest,tc59_couponsListWithStoreSetTest(com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest),com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.306
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.307
+Unexpected IOException with stream: tc59_couponsListWithStoreSetTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.307
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest,tc59_couponsListWithStoreSetTest(com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.308
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest,closeApp(com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.309
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest,intializingDriver(com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.309
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest,setUpPage(com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.310
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest,tc60_couponsViewRestrictionsTest(com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest),com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.311
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.311
+Unexpected IOException with stream: tc60_couponsViewRestrictionsTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.312
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest,tc60_couponsViewRestrictionsTest(com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.312
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest,closeApp(com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.313
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest,intializingDriver(com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.314
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest,setUpPage(com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.315
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest,tc61_couponDetailsCloseButtonTest(com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest),com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.315
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.316
+Unexpected IOException with stream: tc61_couponDetailsCloseButtonTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.317
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest,tc61_couponDetailsCloseButtonTest(com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.317
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest,closeApp(com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.318
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC62_CouponAddToWalletTest,intializingDriver(com.michaels.mobile.test.TC62_CouponAddToWalletTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.318
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC62_CouponAddToWalletTest,setUpPage(com.michaels.mobile.test.TC62_CouponAddToWalletTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.319
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC62_CouponAddToWalletTest,tc62_couponAddToWalletTest(com.michaels.mobile.test.TC62_CouponAddToWalletTest),com.michaels.mobile.test.TC62_CouponAddToWalletTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.319
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.320
+Unexpected IOException with stream: tc62_couponAddToWalletTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.321
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC62_CouponAddToWalletTest,tc62_couponAddToWalletTest(com.michaels.mobile.test.TC62_CouponAddToWalletTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.322
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC62_CouponAddToWalletTest,closeApp(com.michaels.mobile.test.TC62_CouponAddToWalletTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.323
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC63_CouponsDoneButtonTest,intializingDriver(com.michaels.mobile.test.TC63_CouponsDoneButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.323
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC63_CouponsDoneButtonTest,setUpPage(com.michaels.mobile.test.TC63_CouponsDoneButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.323
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC63_CouponsDoneButtonTest,tc63_couponsDoneButtonTest(com.michaels.mobile.test.TC63_CouponsDoneButtonTest),com.michaels.mobile.test.TC63_CouponsDoneButtonTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.324
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.324
+Unexpected IOException with stream: tc63_couponsDoneButtonTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.324
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC63_CouponsDoneButtonTest,tc63_couponsDoneButtonTest(com.michaels.mobile.test.TC63_CouponsDoneButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.325
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC63_CouponsDoneButtonTest,closeApp(com.michaels.mobile.test.TC63_CouponsDoneButtonTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.326
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest,intializingDriver(com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.326
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest,setUpPage(com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.326
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest,tc64_rewardsProfileSetupFromMoreMenuTest(com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest),com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.327
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.327
+Unexpected IOException with stream: tc64_rewardsProfileSetupFromMoreMenuTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.327
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest,tc64_rewardsProfileSetupFromMoreMenuTest(com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.328
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest,closeApp(com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.329
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest,intializingDriver(com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.329
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest,setUpPage(com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.329
+Unexpected IOException: 5,1,com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest,tc65_rewardsProfileSetUpWithCreateAccountTest(com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest),com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest,null,null
+
+
+# Created at 2018-10-03T13:01:57.330
+Unexpected IOException with stream: on test start
+
+
+# Created at 2018-10-03T13:01:57.330
+Unexpected IOException with stream: tc65_rewardsProfileSetUpWithCreateAccountTesttest is started
+
+
+# Created at 2018-10-03T13:01:57.331
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest,tc65_rewardsProfileSetUpWithCreateAccountTest(com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.332
+Unexpected IOException: 9,1,com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest,closeApp(com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest),null,null,null
+
+
+# Created at 2018-10-03T13:01:57.420
+Unexpected IOException with stream: on finish
+
+
+# Created at 2018-10-03T13:01:59.664
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

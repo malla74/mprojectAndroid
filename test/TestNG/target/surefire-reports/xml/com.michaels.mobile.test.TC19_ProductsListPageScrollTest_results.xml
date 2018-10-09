@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="76.071">
+  <properties />
+  
+  
+            <testcase name="tc19_productsListPageScrollTest" time="76.071" classname="com.michaels.mobile.test.TC19_ProductsListPageScrollTest" />
+      
+</testsuite>

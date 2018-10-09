@@ -1,0 +1,64 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 63, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 11,904.425 s <<< FAILURE! - in TestSuite
+tc06_tc07_homeTileClickTest(com.michaels.mobile.test.TC07_HomeTileClickTest)  Time elapsed: 28.002 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc06_tc07_homeTileClickTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC07_HomeTileClickTest.tc06_tc07_homeTileClickTest(TC07_HomeTileClickTest.java:29)
+
+tc09_homeCarouselClickNavigateTest(com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest)  Time elapsed: 37.366 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc09_homeCarouselClickNavigateTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest.tc09_homeCarouselClickNavigateTest(TC09_HomeCarouselClickNavigateTest.java:29)
+
+tc10_homeCarouselClickNavigateTest(com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest)  Time elapsed: 39.164 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc10_homeCarouselClickNavigateTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest.tc10_homeCarouselClickNavigateTest(TC10_HomeCarouselClickNavigateTest.java:29)
+
+tc15_callStoreTest(com.michaels.mobile.test.TC15_CallStoreTest)  Time elapsed: 84.268 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc15_callStoreTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC15_CallStoreTest.tc15_callStoreTest(TC15_CallStoreTest.java:32)
+
+tc20_productDetailsPageTest(com.michaels.mobile.test.TC20_ProductDetailsPageTest)  Time elapsed: 49.729 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc20_productDetailsPageTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC20_ProductDetailsPageTest.tc20_productDetailsPageTest(TC20_ProductDetailsPageTest.java:33)
+
+tc25_productCheckNearByStoresTest(com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest)  Time elapsed: 151.511 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc25_productCheckNearByStoresTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest.tc25_productCheckNearByStoresTest(TC25_ProductCheckNearByStoresTest.java:51)
+
+tc26_recommendedProductsPDPTest(com.michaels.mobile.test.TC26_RecommendedProductsPDPTest)  Time elapsed: 84.422 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc26_recommendedProductsPDPTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC26_RecommendedProductsPDPTest.tc26_recommendedProductsPDPTest(TC26_RecommendedProductsPDPTest.java:47)
+
+tc30_pLPRefineByTest(com.michaels.mobile.test.TC30_PLPRefineByTest)  Time elapsed: 56.713 s  <<< FAILURE!
+java.lang.AssertionError:  Unable to verify Products List page expected [true] but found [false]
+	at com.michaels.mobile.test.TC30_PLPRefineByTest.tc30_pLPRefineByTest(TC30_PLPRefineByTest.java:35)
+
+tc39_textSearchOneProductIdTest(com.michaels.mobile.test.TC39_TextSearchOneProductIdTest)  Time elapsed: 40.84 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc39_textSearchOneProductIdTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC39_TextSearchOneProductIdTest.tc39_textSearchOneProductIdTest(TC39_TextSearchOneProductIdTest.java:36)
+
+tc47_signInFromRewardsProgramInfoTest(com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest)  Time elapsed: 61.175 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc47_signInFromRewardsProgramInfoTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest.tc47_signInFromRewardsProgramInfoTest(TC47_SignInFromRewardsProgramInfoTest.java:50)
+
+tc56_pJDPFindItTest(com.michaels.mobile.test.TC56_PJDPFindItTest)  Time elapsed: 14.339 s  <<< FAILURE!
+java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC56_PJDPFindItTest.tc56_pJDPFindItTest(TC56_PJDPFindItTest.java:42)
+
+tc58_couponsListWithoutStoreSetTest(com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest)  Time elapsed: 98.148 s  <<< FAILURE!
+java.lang.AssertionError: ******* Test Case FAILED ******* tc58_couponsListWithoutStoreSetTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest.tc58_couponsListWithoutStoreSetTest(TC58_CouponsListWithoutStoreSetTest.java:51)
+
+tc60_couponsViewRestrictionsTest(com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest)  Time elapsed: 13.269 s  <<< FAILURE!
+java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest.tc60_couponsViewRestrictionsTest(TC60_CouponsViewRestrictionsTest.java:44)
+
+tc64_rewardsProfileSetupFromMoreMenuTest(com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest)  Time elapsed: 246.125 s  <<< FAILURE!
+java.lang.AssertionError:  Unable to Create Account expected [true] but found [false]
+	at com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest.tc64_rewardsProfileSetupFromMoreMenuTest(TC64_RewardsProfileSetupFromMoreMenuTest.java:54)
+
+tc65_rewardsProfileSetUpWithCreateAccountTest(com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest)  Time elapsed: 12.891 s  <<< FAILURE!
+java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest.tc65_rewardsProfileSetUpWithCreateAccountTest(TC65_RewardsProfileSetUpWithCreateAccountTest.java:47)
+

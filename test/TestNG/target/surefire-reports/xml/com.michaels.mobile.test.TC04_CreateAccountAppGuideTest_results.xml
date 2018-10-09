@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="141.046">
+  <properties />
+  
+  
+            <testcase name="tc04_createAccountAppGuideTest" time="141.046" classname="com.michaels.mobile.test.TC04_CreateAccountAppGuideTest" />
+      
+</testsuite>

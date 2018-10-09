@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]">
+  <listeners>
+    <listener class-name="com.michaels.mobile.utils.ExtentReportListner"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)(failed)">
+    <classes>
+      <class name="com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest">
+        <methods>
+          <include name="intializingDriver"/>
+          <include name="closeApp"/>
+          <include name="setUpPage"/>
+          <include name="tc58_couponsListWithoutStoreSetTest"/>
+        </methods>
+      </class> <!-- com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest -->
+      <class name="com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest">
+        <methods>
+          <include name="setUpPage"/>
+          <include name="closeApp"/>
+          <include name="intializingDriver"/>
+          <include name="tc65_rewardsProfileSetUpWithCreateAccountTest"/>
+        </methods>
+      </class> <!-- com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest -->
+      <class name="com.michaels.mobile.test.TC39_TextSearchOneProductIdTest">
+        <methods>
+          <include name="tc39_textSearchOneProductIdTest"/>
+          <include name="intializingDriver"/>
+          <include name="closeApp"/>
+          <include name="setUpPage"/>
+        </methods>
+      </class> <!-- com.michaels.mobile.test.TC39_TextSearchOneProductIdTest -->
+      <class name="com.michaels.mobile.test.TC56_PJDPFindItTest">
+        <methods>
+          <include name="setUpPage"/>
+          <include name="intializingDriver"/>
+          <include name="tc56_pJDPFindItTest"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.michaels.mobile.test.TC56_PJDPFindItTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

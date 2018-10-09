@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="69.837">
+  <properties />
+  
+  
+            <testcase name="tc37_pJLPRefineByCraftingTimeTest" time="69.837" classname="com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest" />
+      
+</testsuite>

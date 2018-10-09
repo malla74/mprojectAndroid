@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="159.786">
+  <properties />
+  
+  
+            <testcase name="tc09_homeCarouselClickNavigateTest" time="159.786" classname="com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest" />
+      
+</testsuite>

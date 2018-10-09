@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11,904.425" tests="63" errors="0" skipped="0" failures="15">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Jenkins\jenkinsWS\MichaelsMobileAutomation\target\test-classes;D:\Jenkins\jenkinsWS\MichaelsMobileAutomation\target\classes;C:\Users\kh170\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\kh170\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\kh170\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\kh170\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\kh170\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kh170\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kh170\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kh170\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\kh170\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\kh170\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kh170\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kh170\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kh170\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kh170\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kh170\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\kh170\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\kh170\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\kh170\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\kh170\.m2\repository\io\appium\java-client\5.0.4\java-client-5.0.4.jar;C:\Users\kh170\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\kh170\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\kh170\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\kh170\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\kh170\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\kh170\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\kh170\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\kh170\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\kh170\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\kh170\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\aspectj\aspectjweaver\1.8.11\aspectjweaver-1.8.11.jar;C:\Users\kh170\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\kh170\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\kh170\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\kh170\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\kh170\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\kh170\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kh170\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kh170\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kh170\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kh170\.m2\repository\com\jcabi\jcabi-log\0.17.1\jcabi-log-0.17.1.jar;C:\Users\kh170\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\kh170\.m2\repository\com\jcabi\jcabi-aspects\0.22\jcabi-aspects-0.22.jar;C:\Users\kh170\.m2\repository\org\aspectj\aspectjrt\1.8.4\aspectjrt-1.8.4.jar;C:\Users\kh170\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\kh170\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\kh170\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\kh170\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\kh170\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\kh170\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\kh170\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\kh170\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\kh170\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\kh170\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\kh170\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\kh170\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\kh170\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kh170\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kh170\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\kh170\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\kh170\AppData\Local\Temp\surefire437576768263970465\surefirebooter8128010917093227382.jar C:\Users\kh170\AppData\Local\Temp\surefire437576768263970465 2018-10-04T22-38-03_153-jvmRun1 surefire1211210930812718524tmp surefire_03770932663832376613tmp"/>
+    <property name="surefire.test.class.path" value="D:\Jenkins\jenkinsWS\MichaelsMobileAutomation\target\test-classes;D:\Jenkins\jenkinsWS\MichaelsMobileAutomation\target\classes;C:\Users\kh170\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\kh170\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\kh170\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\kh170\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\kh170\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\kh170\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kh170\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\kh170\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\kh170\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\kh170\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\kh170\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kh170\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kh170\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kh170\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kh170\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kh170\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\kh170\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\kh170\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\kh170\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\kh170\.m2\repository\io\appium\java-client\5.0.4\java-client-5.0.4.jar;C:\Users\kh170\.m2\repository\cglib\cglib\3.2.5\cglib-3.2.5.jar;C:\Users\kh170\.m2\repository\org\ow2\asm\asm\5.2\asm-5.2.jar;C:\Users\kh170\.m2\repository\org\apache\ant\ant\1.9.6\ant-1.9.6.jar;C:\Users\kh170\.m2\repository\org\apache\ant\ant-launcher\1.9.6\ant-launcher-1.9.6.jar;C:\Users\kh170\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\kh170\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\kh170\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\kh170\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\kh170\.m2\repository\org\apache\commons\commons-lang3\3.6\commons-lang3-3.6.jar;C:\Users\kh170\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-context\5.0.0.RELEASE\spring-context-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-aop\5.0.0.RELEASE\spring-aop-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-beans\5.0.0.RELEASE\spring-beans-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-core\5.0.0.RELEASE\spring-core-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-jcl\5.0.0.RELEASE\spring-jcl-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\springframework\spring-expression\5.0.0.RELEASE\spring-expression-5.0.0.RELEASE.jar;C:\Users\kh170\.m2\repository\org\aspectj\aspectjweaver\1.8.11\aspectjweaver-1.8.11.jar;C:\Users\kh170\.m2\repository\org\openpnp\opencv\3.2.0-1\opencv-3.2.0-1.jar;C:\Users\kh170\.m2\repository\org\apache\poi\poi-ooxml\3.9\poi-ooxml-3.9.jar;C:\Users\kh170\.m2\repository\org\apache\poi\poi\3.9\poi-3.9.jar;C:\Users\kh170\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.9\poi-ooxml-schemas-3.9.jar;C:\Users\kh170\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\kh170\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\kh170\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\kh170\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\kh170\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kh170\.m2\repository\com\jcabi\jcabi-log\0.17.1\jcabi-log-0.17.1.jar;C:\Users\kh170\.m2\repository\org\slf4j\slf4j-api\1.7.5\slf4j-api-1.7.5.jar;C:\Users\kh170\.m2\repository\com\jcabi\jcabi-aspects\0.22\jcabi-aspects-0.22.jar;C:\Users\kh170\.m2\repository\org\aspectj\aspectjrt\1.8.4\aspectjrt-1.8.4.jar;C:\Users\kh170\.m2\repository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;C:\Users\kh170\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\kh170\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\kh170\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\kh170\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\kh170\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\kh170\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\kh170\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;C:\Users\kh170\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\kh170\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\kh170\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\kh170\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\kh170\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\kh170\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\kh170\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\kh170\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kh170"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="basedir" value="D:\Jenkins\jenkinsWS\MichaelsMobileAutomation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\kh170\AppData\Local\Temp\surefire437576768263970465\surefirebooter8128010917093227382.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="KH170"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kh170\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kh170\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="D:\Jenkins\jenkinsWS\MichaelsMobileAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Automation\apache-maven-3.2.3/bin;C:\Program Files\Java\jdk1.8.0_171/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_171\bin;D:\Android\Android-sdk\tools;D:\Android\Android-sdk\platform-tools;D:\Android\Android-sdk\platforms;C:\Program Files\TortoiseSVN\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\Automation\apache-maven-3.2.3;D:\Automation\apache-maven-3.2.3\bin;C:\Program Files (x86)\nodejs\;C:\Users\kh170\AppData\Local\Microsoft\WindowsApps;D:\VizEnterprize\Viz7.3\ImageMagick;D:\VizEnterprize\Viz7.3\Ant\bin;C:\Users\kh170\AppData\Local\Android\Sdk\platform-tools;C:\Users\kh170\AppData\Local\Android\Sdk\tools;C:\Users\kh170\AppData\Local\GitHubDesktop\bin;D:\VizEnterprize\Viz7.2\VizEnt7.2.1\ImageMagick;D:\VizEnterprize\Viz7.2\VizEnt7.2.1\Ant\bin;C:\Users\kh170\AppData\Local\Programs\Fiddler;C:\Users\kh170\AppData\Local\Microsoft\WindowsApps;D:\Automation\apache-maven-3.2.3\bin;C:\Users\kh170\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="tC01_appGuideTest" classname="com.michaels.mobile.test.TC01_AppGuideTest" time="42.791"/>
+  <testcase name="tc02_homePageTest" classname="com.michaels.mobile.test.TC02_HomePageTest" time="12.592"/>
+  <testcase name="tc03_appGuideSignInTest" classname="com.michaels.mobile.test.TC03_AppGuideSignInTest" time="77.719"/>
+  <testcase name="tc04_createAccountAppGuideTest" classname="com.michaels.mobile.test.TC04_CreateAccountAppGuideTest" time="141.047"/>
+  <testcase name="tc05_createAccountSignInTest" classname="com.michaels.mobile.test.TC05_CreateAccountSignInTest" time="152.54"/>
+  <testcase name="tc06_tc07_homeTileClickTest" classname="com.michaels.mobile.test.TC06_TC07_HomeTileClickTest" time="88.697"/>
+  <testcase name="tc06_tc07_homeTileClickTest" classname="com.michaels.mobile.test.TC07_HomeTileClickTest" time="28.002">
+    <failure message="******* Test Case FAILED ******* tc06_tc07_homeTileClickTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc06_tc07_homeTileClickTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC07_HomeTileClickTest.tc06_tc07_homeTileClickTest(TC07_HomeTileClickTest.java:29)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-04-2018 22:55:57 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc06_tc07_homeTileClickTest test is started
+10-04-2018 22:57:25 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-04-2018 22:57:40 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+10-04-2018 22:57:40 - INFO  ==== Initiated Method to Verify Tile navigation 
+Element Is not Visible Located by By.id: fxlContainer
+10-04-2018 22:57:53 - INFO  ==== Unable to find Verify Tile navigationorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.xpath: (//*[@text='Get Coupon' and @index='0'])[2]})" 
+- html content: "by id or name "homeTile2""
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2018 10:57:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+]]></system-err>
+  </testcase>
+  <testcase name="tc08_homePageCarouselTest" classname="com.michaels.mobile.test.TC08_HomePageCarouselTest" time="46.167"/>
+  <testcase name="tc09_homeCarouselClickNavigateTest" classname="com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest" time="37.366">
+    <failure message="******* Test Case FAILED ******* tc09_homeCarouselClickNavigateTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc09_homeCarouselClickNavigateTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest.tc09_homeCarouselClickNavigateTest(TC09_HomeCarouselClickNavigateTest.java:29)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-04-2018 23:00:26 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc09_homeCarouselClickNavigateTest test is started
+10-04-2018 23:01:48 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-04-2018 23:02:02 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+10-04-2018 23:02:02 - INFO  ==== Initiated Method to Verify Carousel 
+Element Is not Visible Located by By.id: flexCarouselContainer
+Element Is not Visible Located by By.id: fxlContainer
+10-04-2018 23:02:26 - INFO  ==== Unable to find Verify Carouselorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: flexCarouselContainer
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2018 11:01:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc10_homeCarouselClickNavigateTest" classname="com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest" time="39.164">
+    <failure message="******* Test Case FAILED ******* tc10_homeCarouselClickNavigateTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc10_homeCarouselClickNavigateTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest.tc10_homeCarouselClickNavigateTest(TC10_HomeCarouselClickNavigateTest.java:29)
+</failure>
+    <system-out><![CDATA[on test failure
+nametc09_homeCarouselClickNavigateTest
+java.lang.AssertionError: ******* Test Case FAILED ******* tc09_homeCarouselClickNavigateTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest.tc09_homeCarouselClickNavigateTest(TC09_HomeCarouselClickNavigateTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+ Closing the Driver
+10-04-2018 23:02:39 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc10_homeCarouselClickNavigateTest test is started
+10-04-2018 23:04:09 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-04-2018 23:04:25 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+10-04-2018 23:04:25 - INFO  ==== Initiated Method to Verify Carousel 
+Element Is not Visible Located by By.id: flexCarouselContainer
+Element Is not Visible Located by By.id: fxlContainer
+10-04-2018 23:04:48 - INFO  ==== Unable to find Verify Carouselorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: flexCarouselContainer
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2018 11:04:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc11_setFavouriteStoreUsingZipCodeTest" classname="com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest" time="106.913"/>
+  <testcase name="tc12_setFavouriteStoreUsingAddressTest" classname="com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest" time="107.406"/>
+  <testcase name="tc13_changeFavouriteStoreTest" classname="com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest" time="169.399"/>
+  <testcase name="tc14_removeFavouriteStoreTest" classname="com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest" time="114.835"/>
+  <testcase name="tc15_callStoreTest" classname="com.michaels.mobile.test.TC15_CallStoreTest" time="84.268">
+    <failure message="******* Test Case FAILED ******* tc15_callStoreTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc15_callStoreTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC15_CallStoreTest.tc15_callStoreTest(TC15_CallStoreTest.java:32)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-04-2018 23:19:29 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc15_callStoreTest test is started
+10-04-2018 23:20:54 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-04-2018 23:21:08 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+10-04-2018 23:21:08 - INFO  ==== Initiated Method to Set Favourite Store 
+Element Is not Visible Located by By.id: fxlContainer
+Located by By.id: btnChooseStoreNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: btnChooseStore (tried for 10 second(s) with 500 milliseconds interval)
+10-04-2018 23:21:31 - INFO  ==== Initiated Method to Select Store
+Element Is not Visible Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""
+Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""Not Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes"" (tried for 20 second(s) with 500 milliseconds interval)
+Element Is not Visible Located by By.id: textSearch
+10-04-2018 23:22:17 - INFO  ==== Unable to find Select Storeorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: textSearch
+10-04-2018 23:22:19 - INFO  ==== Unable to find Verify Call Storeorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: lblProducts
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2018 11:20:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc16_storeMapTest" classname="com.michaels.mobile.test.TC16_StoreMapTest" time="111.739"/>
+  <testcase name="tc17_productWayFindingTest" classname="com.michaels.mobile.test.TC17_ProductWayFindingTest" time="133.571"/>
+  <testcase name="tc18_productsListPageTest" classname="com.michaels.mobile.test.TC18_ProductsListPageTest" time="77.435"/>
+  <testcase name="tc19_productsListPageScrollTest" classname="com.michaels.mobile.test.TC19_ProductsListPageScrollTest" time="76.071"/>
+  <testcase name="tc20_productDetailsPageTest" classname="com.michaels.mobile.test.TC20_ProductDetailsPageTest" time="49.729">
+    <failure message="******* Test Case FAILED ******* tc20_productDetailsPageTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc20_productDetailsPageTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC20_ProductDetailsPageTest.tc20_productDetailsPageTest(TC20_ProductDetailsPageTest.java:33)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-04-2018 23:35:09 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc20_productDetailsPageTest test is started
+10-04-2018 23:36:35 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-04-2018 23:36:49 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+10-04-2018 23:36:49 - INFO  ==== Initiated Method to Click on Shop Menu 
+Element Is not Visible Located by By.id: fxlContainer
+10-04-2018 23:37:01 - INFO  ==== Unable to Click on Shop Menuorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: btnProducts
+10-04-2018 23:37:01 - INFO  ==== Initiated Method to verify product details page 
+10-04-2018 23:37:01 - INFO  ====  Initiated Method to Verify products Page 
+Located by By.id: frmProductsNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: frmProducts (tried for 20 second(s) with 500 milliseconds interval)
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2018 11:36:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc21_couponsSignInTest" classname="com.michaels.mobile.test.TC21_CouponsSignInTest" time="113.652"/>
+  <testcase name="tc22_productAddToMyListTest" classname="com.michaels.mobile.test.TC22_ProductAddToMyListTest" time="143.707"/>
+  <testcase name="tc23_productAddToMyListNotSignedInTest" classname="com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest" time="132.341"/>
+  <testcase name="tc24_productBuyOnlineTest" classname="com.michaels.mobile.test.TC24_ProductBuyOnlineTest" time="85.987"/>
+  <testcase name="tc25_productCheckNearByStoresTest" classname="com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest" time="151.511">
+    <failure message="******* Test Case FAILED ******* tc25_productCheckNearByStoresTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc25_productCheckNearByStoresTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest.tc25_productCheckNearByStoresTest(TC25_ProductCheckNearByStoresTest.java:51)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-04-2018 23:51:43 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc25_productCheckNearByStoresTest test is started
+10-04-2018 23:53:07 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-04-2018 23:53:30 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""
+10-04-2018 23:53:40 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-04-2018 23:53:41 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-04-2018 23:53:42 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""
+10-04-2018 23:53:47 - INFO  ==== Initiated Method to Set Favourite Store 
+10-04-2018 23:53:54 - INFO  ==== Element is displayed Successfully*****Located by By.id: btnChooseStore
+10-04-2018 23:53:57 - INFO  ==== Initiated Method to Select Store
+Element Is not Visible Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""
+Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""Not Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes"" (tried for 20 second(s) with 500 milliseconds interval)
+10-04-2018 23:54:50 - INFO  ==== Element is displayed Successfully*****Located by By.id: lblChevron
+10-04-2018 23:54:54 - INFO  ==== Initiated Method to Click on Shop Menu 
+10-04-2018 23:54:57 - INFO  ==== Initiated Method to verify product details page 
+10-04-2018 23:54:57 - INFO  ====  Initiated Method to Verify products Page 
+10-04-2018 23:54:58 - INFO  ==== Element is displayed Successfully*****Located by By.id: frmProducts
+10-04-2018 23:54:58 - INFO  ==== Products Page is displayed
+Located by By.id: checkNearByStoresNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: checkNearByStores (tried for 10 second(s) with 500 milliseconds interval)
+Located by By.id: flxListViewNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: flxListView (tried for 20 second(s) with 500 milliseconds interval)
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2018 11:53:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+]]></system-err>
+  </testcase>
+  <testcase name="tc26_recommendedProductsPDPTest" classname="com.michaels.mobile.test.TC26_RecommendedProductsPDPTest" time="84.422">
+    <failure message="******* Test Case FAILED ******* tc26_recommendedProductsPDPTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc26_recommendedProductsPDPTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC26_RecommendedProductsPDPTest.tc26_recommendedProductsPDPTest(TC26_RecommendedProductsPDPTest.java:47)
+</failure>
+    <system-out><![CDATA[on test failure
+nametc25_productCheckNearByStoresTest
+java.lang.AssertionError: ******* Test Case FAILED ******* tc25_productCheckNearByStoresTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest.tc25_productCheckNearByStoresTest(TC25_ProductCheckNearByStoresTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+ Closing the Driver
+10-04-2018 23:55:49 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc26_recommendedProductsPDPTest test is started
+10-04-2018 23:57:09 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-04-2018 23:57:32 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""
+10-04-2018 23:57:43 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-04-2018 23:57:44 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-04-2018 23:57:45 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""
+10-04-2018 23:57:50 - INFO  ==== Initiated Method to Click on Shop Menu 
+10-04-2018 23:58:00 - INFO  ==== Initiated Method to verify product details page 
+10-04-2018 23:58:00 - INFO  ====  Initiated Method to Verify products Page 
+10-04-2018 23:58:00 - INFO  ==== Element is displayed Successfully*****Located by By.id: frmProducts
+10-04-2018 23:58:00 - INFO  ==== Products Page is displayed
+10-04-2018 23:58:10 - INFO  ==== Intiated method for finding Text presence....
+Loop no:0
+10-04-2018 23:58:10 - INFO  ==== Intiated Method to Find the Text...RECOMMENDED PRODUCTS
+10-04-2018 23:58:10 - INFO  ==== Unable to find the text
+Loop no:1
+10-04-2018 23:58:11 - INFO  ==== Intiated Method to Find the Text...RECOMMENDED PRODUCTS
+10-04-2018 23:58:11 - INFO  ==== Unable to find the text
+Loop no:2
+10-04-2018 23:58:12 - INFO  ==== Intiated Method to Find the Text...RECOMMENDED PRODUCTS
+10-04-2018 23:58:12 - INFO  ==== Unable to find the text
+Loop no:3
+10-04-2018 23:58:13 - INFO  ==== Intiated Method to Find the Text...RECOMMENDED PRODUCTS
+10-04-2018 23:58:13 - INFO  ==== Unable to find the text
+Located by By.id: lblRecomProductsNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: lblRecomProducts (tried for 20 second(s) with 500 milliseconds interval)
+]]></system-out>
+    <system-err><![CDATA[Oct 04, 2018 11:57:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+]]></system-err>
+  </testcase>
+  <testcase name="tc27_showMoreUpto15ProductsTest" classname="com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest" time="137.598"/>
+  <testcase name="tc28_pLPSortByTest" classname="com.michaels.mobile.test.TC28_PLPSortByTest" time="90.042"/>
+  <testcase name="tc29_pLPShopByTest" classname="com.michaels.mobile.test.TC29_PLPShopByTest" time="91.643"/>
+  <testcase name="tc30_pLPRefineByTest" classname="com.michaels.mobile.test.TC30_PLPRefineByTest" time="56.713">
+    <failure message=" Unable to verify Products List page expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError:  Unable to verify Products List page expected [true] but found [false]
+	at com.michaels.mobile.test.TC30_PLPRefineByTest.tc30_pLPRefineByTest(TC30_PLPRefineByTest.java:35)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-05-2018 00:08:46 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc30_pLPRefineByTest test is started
+10-05-2018 00:10:10 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 00:10:30 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""
+10-05-2018 00:10:40 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 00:10:42 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 00:10:43 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""
+10-05-2018 00:10:47 - INFO  ==== Initiated Method to Click on Shop Menu 
+10-05-2018 00:10:58 - INFO  ====  Initiated Method to Verify products Page 
+10-05-2018 00:10:58 - INFO  ==== Element is displayed Successfully*****Located by By.id: frmProducts
+10-05-2018 00:10:58 - INFO  ==== Products Page is displayed
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 12:10:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc31_projectsLandingPageTest" classname="com.michaels.mobile.test.TC31_ProjectsLandingPageTest" time="46.924"/>
+  <testcase name="tc32_projectsListPageTest" classname="com.michaels.mobile.test.TC32_ProjectsListPageTest" time="61.961"/>
+  <testcase name="tc33_projectsListPageScrollTest" classname="com.michaels.mobile.test.TC33_ProjectsListPageScrollTest" time="63.822"/>
+  <testcase name="tc34_projectDetailsPageTest" classname="com.michaels.mobile.test.TC34_ProjectDetailsPageTest" time="67.214"/>
+  <testcase name="tc35_projectsBuyOnlineTest" classname="com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest" time="93.357"/>
+  <testcase name="tc36_pJLPRefineBySkillLevelTest" classname="com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest" time="74.676"/>
+  <testcase name="tc37_pJLPRefineByCraftingTimeTest" classname="com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest" time="73.541"/>
+  <testcase name="tc38_textSearchOneWordTest" classname="com.michaels.mobile.test.TC38_TextSearchOneWordTest" time="70.008"/>
+  <testcase name="tc39_textSearchOneProductIdTest" classname="com.michaels.mobile.test.TC39_TextSearchOneProductIdTest" time="40.84">
+    <failure message="******* Test Case FAILED ******* tc39_textSearchOneProductIdTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc39_textSearchOneProductIdTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC39_TextSearchOneProductIdTest.tc39_textSearchOneProductIdTest(TC39_TextSearchOneProductIdTest.java:36)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-05-2018 00:34:24 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc39_textSearchOneProductIdTest test is started
+10-05-2018 00:36:07 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 00:36:27 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""
+10-05-2018 00:36:38 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 00:36:39 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 00:36:40 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""
+10-05-2018 00:36:48 - INFO  ==== Unable to Click on do a text Searchorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: btnHome
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 12:36:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc40_textSearchMorethan1WordTest" classname="com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest" time="58.907"/>
+  <testcase name="tc41_textSearchFrenchOneWordTest" classname="com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest" time="80.675"/>
+  <testcase name="tc42_textSearchFrenchTwoWordTest" classname="com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest" time="75.37"/>
+  <testcase name="tc43_signInMoreMenuTest" classname="com.michaels.mobile.test.TC43_SignInMoreMenuTest" time="87.665"/>
+  <testcase name="tc44_signInFromMyListScreenTest" classname="com.michaels.mobile.test.TC44_SignInFromMyListScreenTest" time="87.952"/>
+  <testcase name="tc45_signInFromPDPTest" classname="com.michaels.mobile.test.TC45_SignInFromPDPTest" time="132.485"/>
+  <testcase name="tc46_signInFromPJDPTest" classname="com.michaels.mobile.test.TC46_SignInFromPJDPTest" time="123.949"/>
+  <testcase name="tc47_signInFromRewardsProgramInfoTest" classname="com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest" time="61.175">
+    <failure message="******* Test Case FAILED ******* tc47_signInFromRewardsProgramInfoTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc47_signInFromRewardsProgramInfoTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest.tc47_signInFromRewardsProgramInfoTest(TC47_SignInFromRewardsProgramInfoTest.java:50)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-05-2018 01:00:03 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc47_signInFromRewardsProgramInfoTest test is started
+10-05-2018 01:01:28 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 01:01:48 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""
+10-05-2018 01:01:58 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 01:02:00 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 01:02:01 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""
+10-05-2018 01:02:06 - INFO  ==== Initiated Method to Click on More Menu 
+Initiated Method to Click on SignIn Button 
+Unable to Click on SignIn Buttonorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 1:01:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+]]></system-err>
+  </testcase>
+  <testcase name="tc48_signUpFromMoreMenuTest" classname="com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest" time="155.145"/>
+  <testcase name="tc49_setFavouriteStoreFromMoreTest" classname="com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest" time="101.171"/>
+  <testcase name="tc50_storeInfoTest" classname="com.michaels.mobile.test.TC50_StoreInfoTest" time="106.943"/>
+  <testcase name="tc51_couponAddToWalletfromHomeTest" classname="com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest" time="119.003"/>
+  <testcase name="tc52_projectsAddToMyListTest" classname="com.michaels.mobile.test.TC52_ProjectsAddToMyListTest" time="130.891"/>
+  <testcase name="tc53_pJDPAddtoMyListNotLoggedIn" classname="com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn" time="120.383"/>
+  <testcase name="tc56_pJDPFindItTest" classname="com.michaels.mobile.test.TC56_PJDPFindItTest" time="14.339">
+    <failure message=" Unable to Verify App Guide  expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC56_PJDPFindItTest.tc56_pJDPFindItTest(TC56_PJDPFindItTest.java:42)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-05-2018 01:24:36 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc56_pJDPFindItTest test is started
+10-05-2018 01:26:01 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 01:26:15 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 1:25:58 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc57_homePageTilesTest" classname="com.michaels.mobile.test.TC57_HomePageTilesTest" time="50.027"/>
+  <testcase name="tc58_couponsListWithoutStoreSetTest" classname="com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest" time="98.148">
+    <failure message="******* Test Case FAILED ******* tc58_couponsListWithoutStoreSetTest expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: ******* Test Case FAILED ******* tc58_couponsListWithoutStoreSetTest expected [true] but found [false]
+	at com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest.tc58_couponsListWithoutStoreSetTest(TC58_CouponsListWithoutStoreSetTest.java:51)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-05-2018 01:28:56 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+Inside Before Class of Test
+on test start
+tc58_couponsListWithoutStoreSetTest test is started
+10-05-2018 01:30:35 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 01:30:53 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""
+10-05-2018 01:31:04 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 01:31:05 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 01:31:07 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""
+10-05-2018 01:31:11 - INFO  ==== Initiated Method to Click on More Menu 
+10-05-2018 01:31:25 - INFO  ==== Initiated Method to Click on SignIn Button 
+10-05-2018 01:31:26 - INFO  ==== Element is displayed Successfully*****Located by By.id: btnCouponMain
+10-05-2018 01:31:28 - INFO  ==== Initiated Method to Select Store
+10-05-2018 01:31:29 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""
+10-05-2018 01:31:52 - INFO  ==== Initiated Method to verify Coupons Page 
+Located by By.id: lblCouponTitleNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: lblCouponTitle (tried for 20 second(s) with 500 milliseconds interval)
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 1:30:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc59_couponsListWithStoreSetTest" classname="com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest" time="112.927"/>
+  <testcase name="tc60_couponsViewRestrictionsTest" classname="com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest" time="13.269">
+    <failure message=" Unable to Verify App Guide  expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest.tc60_couponsViewRestrictionsTest(TC60_CouponsViewRestrictionsTest.java:44)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-05-2018 01:36:04 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+Inside Before Class of Test
+on test start
+tc60_couponsViewRestrictionsTest test is started
+10-05-2018 01:37:36 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 01:37:49 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 1:37:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="tc61_couponDetailsCloseButtonTest" classname="com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest" time="113.573"/>
+  <testcase name="tc62_couponAddToWalletTest" classname="com.michaels.mobile.test.TC62_CouponAddToWalletTest" time="116.601"/>
+  <testcase name="tc63_couponsDoneButtonTest" classname="com.michaels.mobile.test.TC63_CouponsDoneButtonTest" time="116.595"/>
+  <testcase name="tc64_rewardsProfileSetupFromMoreMenuTest" classname="com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest" time="246.125">
+    <failure message=" Unable to Create Account expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError:  Unable to Create Account expected [true] but found [false]
+	at com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest.tc64_rewardsProfileSetupFromMoreMenuTest(TC64_RewardsProfileSetupFromMoreMenuTest.java:54)
+</failure>
+    <system-out><![CDATA[on test success
+
+ Closing the Driver
+10-05-2018 01:48:45 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc64_rewardsProfileSetupFromMoreMenuTest test is started
+10-05-2018 01:50:15 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 01:50:32 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""
+10-05-2018 01:50:43 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 01:50:44 - INFO  ==== Element is displayed Successfully*****Located by By.id: flexGuideControl41
+10-05-2018 01:50:46 - INFO  ==== Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""
+10-05-2018 01:50:50 - INFO  ==== Initiated Method to Click on More Menu 
+10-05-2018 01:51:01 - INFO  ==== Initiated Method to Click on SignIn Button 
+10-05-2018 01:51:01 - INFO  ==== Element is displayed Successfully*****Located by By.id: btnSignUp
+10-05-2018 01:51:04 - INFO  ==== Initiated method to enter details and click on create account 
+Element Is not Visible Located by By.id: btnYes
+Located by By.id: btnYesNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: btnYes (tried for 20 second(s) with 500 milliseconds interval)
+Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Maybe later']})" 
+- html content: "by id or name "btnMayBeLater""Not Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Maybe later']})" 
+- html content: "by id or name "btnMayBeLater"" (tried for 20 second(s) with 500 milliseconds interval)
+Located by By.id: btnNotRightNowNot Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.id: btnNotRightNow (tried for 20 second(s) with 500 milliseconds interval)
+Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Maybe later']})" 
+- html content: "by id or name "btnMayBeLater""Not Foundorg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Maybe later']})" 
+- html content: "by id or name "btnMayBeLater"" (tried for 20 second(s) with 500 milliseconds interval)
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 1:50:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Size  :19201080
+startH  :480Width :540
+endH  :1440Width :540
+]]></system-err>
+  </testcase>
+  <testcase name="tc65_rewardsProfileSetUpWithCreateAccountTest" classname="com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest" time="12.891">
+    <failure message=" Unable to Verify App Guide  expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest.tc65_rewardsProfileSetUpWithCreateAccountTest(TC65_RewardsProfileSetUpWithCreateAccountTest.java:47)
+</failure>
+    <system-out><![CDATA[on test failure
+nametc64_rewardsProfileSetupFromMoreMenuTest
+java.lang.AssertionError:  Unable to Create Account expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest.tc64_rewardsProfileSetupFromMoreMenuTest(TC64_RewardsProfileSetupFromMoreMenuTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+
+
+ Closing the Driver
+10-05-2018 01:54:32 - INFO  ==== Setting the Capabilities
+Inside platform ANDROID............
+on test start
+tc65_rewardsProfileSetUpWithCreateAccountTest test is started
+10-05-2018 01:55:59 - INFO  ==== Initiated Method to Verify app guide and land on Home page 
+10-05-2018 01:56:12 - WARN  ==== App guide Verification Failed org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "alert_OK_btn""
+]]></system-out>
+    <system-err><![CDATA[Oct 05, 2018 1:55:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

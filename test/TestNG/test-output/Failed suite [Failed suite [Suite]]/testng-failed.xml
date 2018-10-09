@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Suite]]]">
+  <listeners>
+    <listener class-name="com.michaels.mobile.utils.ExtentReportListner"/>
+  </listeners>
+  <test name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.michaels.mobile.test.RecommendedProductsPDPTest">
+        <methods>
+          <include name="intializingDriver"/>
+          <include name="closeApp"/>
+          <include name="setUpPage"/>
+          <include name="RecommendedProductsPDPTest_TC26"/>
+        </methods>
+      </class> <!-- com.michaels.mobile.test.RecommendedProductsPDPTest -->
+      <class name="com.michaels.mobile.test.HomeCarouselInAppTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="intializingDriver"/>
+          <include name="setUpPage"/>
+        </methods>
+      </class> <!-- com.michaels.mobile.test.HomeCarouselInAppTest -->
+      <class name="com.michaels.mobile.test.HomeTileClickTest">
+        <methods>
+          <include name="intializingDriver"/>
+          <include name="setUpPage"/>
+          <include name="verifyTileClick_TC06"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.michaels.mobile.test.HomeTileClickTest -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

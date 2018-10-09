@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test(failed)"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="76.831">
+  <properties />
+  
+  
+            <testcase name="tc06_tc07_homeTileClickTest" time="76.831" classname="com.michaels.mobile.test.TC07_HomeTileClickTest" />
+      
+</testsuite>

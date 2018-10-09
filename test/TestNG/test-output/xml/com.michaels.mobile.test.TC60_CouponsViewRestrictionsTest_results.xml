@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test(failed)"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="111.364">
+  <properties />
+  
+  
+            <testcase name="tc60_couponsViewRestrictionsTest" time="111.364" classname="com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest" />
+      
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="123.949">
+  <properties />
+  
+  
+            <testcase name="tc46_signInFromPJDPTest" time="123.949" classname="com.michaels.mobile.test.TC46_SignInFromPJDPTest" />
+      
+</testsuite>

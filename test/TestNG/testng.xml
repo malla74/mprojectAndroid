@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.michaels.mobile.utils.ExtentReportListner"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+
+		<classes>
+	
+
+<!--  Android -->
+ 
+       <class name="com.michaels.mobile.test.TC01_AppGuideTest"/>
+      <class name="com.michaels.mobile.test.TC02_HomePageTest"/>
+      <class name="com.michaels.mobile.test.TC03_AppGuideSignInTest"/>
+      <class name="com.michaels.mobile.test.TC04_CreateAccountAppGuideTest"/>
+      <class name="com.michaels.mobile.test.TC05_CreateAccountSignInTest"/>
+      <class name="com.michaels.mobile.test.TC06_TC07_HomeTileClickTest"/>
+      <class name="com.michaels.mobile.test.TC07_HomeTileClickTest"/>
+      <class name="com.michaels.mobile.test.TC08_HomePageCarouselTest"/>
+      <class name="com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest"/>
+      <class name="com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest"/>
+       <class name="com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest"/>
+      <class name="com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest"/>
+      <class name="com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest"/>
+      <class name="com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest"/>
+      <class name="com.michaels.mobile.test.TC15_CallStoreTest"/>
+     <class name="com.michaels.mobile.test.TC16_StoreMapTest"/>
+      <class name="com.michaels.mobile.test.TC17_ProductWayFindingTest"/>
+      <class name="com.michaels.mobile.test.TC18_ProductsListPageTest"/>
+      <class name="com.michaels.mobile.test.TC19_ProductsListPageScrollTest"/>
+      <class name="com.michaels.mobile.test.TC20_ProductDetailsPageTest"/>
+ 	  <class name="com.michaels.mobile.test.TC21_CouponsSignInTest"/>
+      <class name="com.michaels.mobile.test.TC22_ProductAddToMyListTest"/>
+      <class name="com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest"/>
+      <class name="com.michaels.mobile.test.TC24_ProductBuyOnlineTest"/>
+      <class name="com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest"/>
+      <class name="com.michaels.mobile.test.TC26_RecommendedProductsPDPTest"/>
+      <class name="com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest"/>
+      <class name="com.michaels.mobile.test.TC28_PLPSortByTest"/>
+      <class name="com.michaels.mobile.test.TC29_PLPShopByTest"/>
+      <class name="com.michaels.mobile.test.TC30_PLPRefineByTest"/> 
+   	<class name="com.michaels.mobile.test.TC31_ProjectsLandingPageTest"/>
+      <class name="com.michaels.mobile.test.TC32_ProjectsListPageTest"/>
+      <class name="com.michaels.mobile.test.TC33_ProjectsListPageScrollTest"/>
+      <class name="com.michaels.mobile.test.TC34_ProjectDetailsPageTest"/>
+      <class name="com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest"/>
+      <class name="com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest"/>
+      <class name="com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest"/>
+      <class name="com.michaels.mobile.test.TC38_TextSearchOneWordTest"/>
+      <class name="com.michaels.mobile.test.TC39_TextSearchOneProductIdTest"/>
+      <class name="com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest"/>
+      <class name="com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest"/>
+      <class name="com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest"/>
+      <class name="com.michaels.mobile.test.TC43_SignInMoreMenuTest"/>
+      <class name="com.michaels.mobile.test.TC44_SignInFromMyListScreenTest"/>
+      <class name="com.michaels.mobile.test.TC45_SignInFromPDPTest"/>
+      <class name="com.michaels.mobile.test.TC46_SignInFromPJDPTest"/>
+      <class name="com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest"/>
+      <class name="com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest"/>
+      <class name="com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest"/>
+      <class name="com.michaels.mobile.test.TC50_StoreInfoTest"/>
+      <class name="com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest"/>
+      <class name="com.michaels.mobile.test.TC52_ProjectsAddToMyListTest"/>
+      <class name="com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn"/>
+      <class name="com.michaels.mobile.test.TC56_PJDPFindItTest"/>
+      <class name="com.michaels.mobile.test.TC57_HomePageTilesTest"/>
+      <class name="com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest"/>
+      <class name="com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest"/>
+      <class name="com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest"/>
+      <class name="com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest"/>
+      <class name="com.michaels.mobile.test.TC62_CouponAddToWalletTest"/>
+      <class name="com.michaels.mobile.test.TC63_CouponsDoneButtonTest"/>
+      <class name="com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest"/>
+      <class name="com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest"/> 
+	
+			 	
+	 
+	 
+			 	 
+ <!-- 	<class name="com.michaels.mobile.test.TC29_PLPShopByTest"/>   
+ 	<class name="com.michaels.mobile.test.TC28_PLPSortByTest"/>
+      <class name="com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest"/>
+      <class name="com.michaels.mobile.test.TC26_RecommendedProductsPDPTest"/>
+      <class name="com.michaels.mobile.test.TC20_ProductDetailsPageTest"/>
+    
+      <class name="com.michaels.mobile.test.TC03_AppGuideSignInTest"/>
+      <class name="com.michaels.mobile.test.TC08_HomePageCarouselTest"/>
+      <class name="com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest"/> -->
+			 	 
+		<!-- iOS -->			
+	 
+	<!-- 
+	
+	 <class name="com.michaels.mobile.test.TC01_AppGuideTest"/>
+  
+      <class name="com.michaels.mobile.test.TC03_AppGuideSignInTest"/>
+      <class name="com.michaels.mobile.test.TC04_CreateAccountAppGuideTest"/>
+      <class name="com.michaels.mobile.test.TC05_CreateAccountSignInTest"/>
+      <class name="com.michaels.mobile.test.TC06_TC07_HomeTileClickTest"/>
+      <class name="com.michaels.mobile.test.TC07_HomeTileClickTest"/>
+      <class name="com.michaels.mobile.test.TC08_HomePageCarouselTest"/>
+      <class name="com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest"/>
+      <class name="com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest"/>
+      <class name="com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest"/>
+      <class name="com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest"/>
+      <class name="com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest"/>
+      <class name="com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest"/>
+      <class name="com.michaels.mobile.test.TC15_CallStoreTest"/>
+     
+      <class name="com.michaels.mobile.test.TC18_ProductsListPageTest"/>
+      <class name="com.michaels.mobile.test.TC19_ProductsListPageScrollTest"/>
+      <class name="com.michaels.mobile.test.TC20_ProductDetailsPageTest"/>
+      <class name="com.michaels.mobile.test.TC21_CouponsSignInTest"/>
+      <class name="com.michaels.mobile.test.TC22_ProductAddToMyListTest"/>
+      <class name="com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest"/>
+      <class name="com.michaels.mobile.test.TC24_ProductBuyOnlineTest"/>
+    
+      <class name="com.michaels.mobile.test.TC28_PLPSortByTest"/>
+      <class name="com.michaels.mobile.test.TC29_PLPShopByTest"/>
+      <class name="com.michaels.mobile.test.TC30_PLPRefineByTest"/>
+	<class name="com.michaels.mobile.test.TC31_ProjectsLandingPageTest"/>
+      <class name="com.michaels.mobile.test.TC32_ProjectsListPageTest"/>
+      <class name="com.michaels.mobile.test.TC33_ProjectsListPageScrollTest"/>
+      <class name="com.michaels.mobile.test.TC34_ProjectDetailsPageTest"/>
+      <class name="com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest"/>
+      <class name="com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest"/>
+      <class name="com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest"/>
+      <class name="com.michaels.mobile.test.TC38_TextSearchOneWordTest"/>
+      <class name="com.michaels.mobile.test.TC39_TextSearchOneProductIdTest"/>
+      <class name="com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest"/>
+     
+      <class name="com.michaels.mobile.test.TC43_SignInMoreMenuTest"/>
+      <class name="com.michaels.mobile.test.TC44_SignInFromMyListScreenTest"/>
+      <class name="com.michaels.mobile.test.TC45_SignInFromPDPTest"/>
+      <class name="com.michaels.mobile.test.TC46_SignInFromPJDPTest"/>
+      <class name="com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest"/>
+      <class name="com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest"/>
+      <class name="com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest"/>
+      <class name="com.michaels.mobile.test.TC50_StoreInfoTest"/>
+      <class name="com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest"/>
+      <class name="com.michaels.mobile.test.TC52_ProjectsAddToMyListTest"/>
+      <class name="com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn"/>
+   
+      <class name="com.michaels.mobile.test.TC57_HomePageTilesTest"/>
+      <class name="com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest"/>
+      <class name="com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest"/>
+      <class name="com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest"/>
+      <class name="com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest"/>
+      <class name="com.michaels.mobile.test.TC62_CouponAddToWalletTest"/>
+      <class name="com.michaels.mobile.test.TC63_CouponsDoneButtonTest"/>
+     
+	
+      -->
+		
+					
+			
+		</classes>
+		</test> <!-- Test -->
+</suite> <!-- Suite -->

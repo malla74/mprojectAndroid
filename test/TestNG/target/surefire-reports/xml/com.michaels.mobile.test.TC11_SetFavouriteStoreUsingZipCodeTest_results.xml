@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="106.912">
+  <properties />
+  
+  
+            <testcase name="tc11_setFavouriteStoreUsingZipCodeTest" time="106.912" classname="com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest" />
+      
+</testsuite>

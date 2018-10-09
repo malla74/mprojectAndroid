@@ -1,0 +1,2345 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>48/15/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 04 22:38:08 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>11898 seconds (11898060 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.michaels.mobile.test.TC07_HomeTileClickTest.tc06_tc07_homeTileClickTest()'><b>tc06_tc07_homeTileClickTest</b><br>Test class: com.michaels.mobile.test.TC07_HomeTileClickTest<br/>
+<a href="#Output-1711158389" onClick='toggleBox("Output-1711158389", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1711158389" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1711158389">
+Initiated Method to Verify app guide and land on Home page <br/>
+Initiated Method to Verify Tile navigation <br/>
+Unable to find Verify Tile navigationorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: Locator map: 
+- native content: "By.chained({By.xpath: (//*[@text='Get Coupon' and @index='0'])[2]})" 
+- html content: "by id or name "homeTile2""<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc06_tc07_homeTileClickTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC07_HomeTileClickTest.tc06_tc07_homeTileClickTest(TC07_HomeTileClickTest.java:29)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1711158389", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1711158389'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc06_tc07_homeTileClickTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC07_HomeTileClickTest.tc06_tc07_homeTileClickTest(TC07_HomeTileClickTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>27</td>
+<td>com.michaels.mobile.test.TC07_HomeTileClickTest@71a8adcf</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest.tc09_homeCarouselClickNavigateTest()'><b>tc09_homeCarouselClickNavigateTest</b><br>Test class: com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest<br/>
+<a href="#Output-1049103728" onClick='toggleBox("Output-1049103728", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1049103728" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1049103728">
+Initiated Method to Verify app guide and land on Home page <br/>
+Initiated Method to Verify Carousel <br/>
+Unable to find Verify Carouselorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: flexCarouselContainer<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc09_homeCarouselClickNavigateTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest.tc09_homeCarouselClickNavigateTest(TC09_HomeCarouselClickNavigateTest.java:29)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1049103728", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1049103728'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc09_homeCarouselClickNavigateTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest.tc09_homeCarouselClickNavigateTest(TC09_HomeCarouselClickNavigateTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>37</td>
+<td>com.michaels.mobile.test.TC09_HomeCarouselClickNavigateTest@3b6ddd1d</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest.tc10_homeCarouselClickNavigateTest()'><b>tc10_homeCarouselClickNavigateTest</b><br>Test class: com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest<br/>
+<a href="#Output-1761229599" onClick='toggleBox("Output-1761229599", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1761229599" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1761229599">
+Initiated Method to Verify app guide and land on Home page <br/>
+Initiated Method to Verify Carousel <br/>
+Unable to find Verify Carouselorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: flexCarouselContainer<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc10_homeCarouselClickNavigateTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest.tc10_homeCarouselClickNavigateTest(TC10_HomeCarouselClickNavigateTest.java:29)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1761229599", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1761229599'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc10_homeCarouselClickNavigateTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest.tc10_homeCarouselClickNavigateTest(TC10_HomeCarouselClickNavigateTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>39</td>
+<td>com.michaels.mobile.test.TC10_HomeCarouselClickNavigateTest@550dbc7a</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC15_CallStoreTest.tc15_callStoreTest()'><b>tc15_callStoreTest</b><br>Test class: com.michaels.mobile.test.TC15_CallStoreTest<br/>
+<a href="#Output-1929307429" onClick='toggleBox("Output-1929307429", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1929307429" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1929307429">
+Initiated Method to Verify app guide and land on Home page <br/>
+Initiated Method to Set Favourite Store <br/>
+Initiated Method to Select Store<br/>
+Unable to find Select Storeorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: textSearch<br/>
+Unable to find Verify Call Storeorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: lblProducts<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc15_callStoreTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC15_CallStoreTest.tc15_callStoreTest(TC15_CallStoreTest.java:32)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1929307429", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1929307429'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc15_callStoreTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC15_CallStoreTest.tc15_callStoreTest(TC15_CallStoreTest.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>84</td>
+<td>com.michaels.mobile.test.TC15_CallStoreTest@17497425</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC20_ProductDetailsPageTest.tc20_productDetailsPageTest()'><b>tc20_productDetailsPageTest</b><br>Test class: com.michaels.mobile.test.TC20_ProductDetailsPageTest<br/>
+<a href="#Output-687753673" onClick='toggleBox("Output-687753673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-687753673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-687753673">
+Initiated Method to Verify app guide and land on Home page <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Unable to Click on Shop Menuorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: btnProducts<br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc20_productDetailsPageTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC20_ProductDetailsPageTest.tc20_productDetailsPageTest(TC20_ProductDetailsPageTest.java:33)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace687753673", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace687753673'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc20_productDetailsPageTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC20_ProductDetailsPageTest.tc20_productDetailsPageTest(TC20_ProductDetailsPageTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>49</td>
+<td>com.michaels.mobile.test.TC20_ProductDetailsPageTest@b9b00e0</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest.tc25_productCheckNearByStoresTest()'><b>tc25_productCheckNearByStoresTest</b><br>Test class: com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest<br/>
+<a href="#Output-219291494" onClick='toggleBox("Output-219291494", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-219291494" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-219291494">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc25_productCheckNearByStoresTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest.tc25_productCheckNearByStoresTest(TC25_ProductCheckNearByStoresTest.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace219291494", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace219291494'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc25_productCheckNearByStoresTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest.tc25_productCheckNearByStoresTest(TC25_ProductCheckNearByStoresTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>151</td>
+<td>com.michaels.mobile.test.TC25_ProductCheckNearByStoresTest@f0da945</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC26_RecommendedProductsPDPTest.tc26_recommendedProductsPDPTest()'><b>tc26_recommendedProductsPDPTest</b><br>Test class: com.michaels.mobile.test.TC26_RecommendedProductsPDPTest<br/>
+<a href="#Output-1724036604" onClick='toggleBox("Output-1724036604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1724036604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1724036604">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Intiated method for finding Text presence....<br/>
+Intiated Method to Find the Text...RECOMMENDED PRODUCTS<br/>
+Unable to find the text<br/>
+Intiated Method to Find the Text...RECOMMENDED PRODUCTS<br/>
+Unable to find the text<br/>
+Intiated Method to Find the Text...RECOMMENDED PRODUCTS<br/>
+Unable to find the text<br/>
+Intiated Method to Find the Text...RECOMMENDED PRODUCTS<br/>
+Unable to find the text<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc26_recommendedProductsPDPTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC26_RecommendedProductsPDPTest.tc26_recommendedProductsPDPTest(TC26_RecommendedProductsPDPTest.java:47)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1724036604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1724036604'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc26_recommendedProductsPDPTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC26_RecommendedProductsPDPTest.tc26_recommendedProductsPDPTest(TC26_RecommendedProductsPDPTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>84</td>
+<td>com.michaels.mobile.test.TC26_RecommendedProductsPDPTest@5d0a1059</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC30_PLPRefineByTest.tc30_pLPRefineByTest()'><b>tc30_pLPRefineByTest</b><br>Test class: com.michaels.mobile.test.TC30_PLPRefineByTest<br/>
+<a href="#Output-993217563" onClick='toggleBox("Output-993217563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-993217563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-993217563">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Unable to verify Products List page expected [true] but found [false]
+	at com.michaels.mobile.test.TC30_PLPRefineByTest.tc30_pLPRefineByTest(TC30_PLPRefineByTest.java:35)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace993217563", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace993217563'><pre>java.lang.AssertionError:  Unable to verify Products List page expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.TC30_PLPRefineByTest.tc30_pLPRefineByTest(TC30_PLPRefineByTest.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>56</td>
+<td>com.michaels.mobile.test.TC30_PLPRefineByTest@7d4f9aae</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC39_TextSearchOneProductIdTest.tc39_textSearchOneProductIdTest()'><b>tc39_textSearchOneProductIdTest</b><br>Test class: com.michaels.mobile.test.TC39_TextSearchOneProductIdTest<br/>
+<a href="#Output-1656945576" onClick='toggleBox("Output-1656945576", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1656945576" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1656945576">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Unable to Click on do a text Searchorg.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.id: btnHome<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc39_textSearchOneProductIdTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC39_TextSearchOneProductIdTest.tc39_textSearchOneProductIdTest(TC39_TextSearchOneProductIdTest.java:36)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1656945576", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1656945576'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc39_textSearchOneProductIdTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC39_TextSearchOneProductIdTest.tc39_textSearchOneProductIdTest(TC39_TextSearchOneProductIdTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>40</td>
+<td>com.michaels.mobile.test.TC39_TextSearchOneProductIdTest@5ba3f27a</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest.tc47_signInFromRewardsProgramInfoTest()'><b>tc47_signInFromRewardsProgramInfoTest</b><br>Test class: com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest<br/>
+<a href="#Output-922414056" onClick='toggleBox("Output-922414056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-922414056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-922414056">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc47_signInFromRewardsProgramInfoTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest.tc47_signInFromRewardsProgramInfoTest(TC47_SignInFromRewardsProgramInfoTest.java:50)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace922414056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace922414056'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc47_signInFromRewardsProgramInfoTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest.tc47_signInFromRewardsProgramInfoTest(TC47_SignInFromRewardsProgramInfoTest.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>61</td>
+<td>com.michaels.mobile.test.TC47_SignInFromRewardsProgramInfoTest@43dac38f</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC56_PJDPFindItTest.tc56_pJDPFindItTest()'><b>tc56_pJDPFindItTest</b><br>Test class: com.michaels.mobile.test.TC56_PJDPFindItTest<br/>
+<a href="#Output-1219641437" onClick='toggleBox("Output-1219641437", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1219641437" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1219641437">
+Initiated Method to Verify app guide and land on Home page <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC56_PJDPFindItTest.tc56_pJDPFindItTest(TC56_PJDPFindItTest.java:42)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1219641437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1219641437'><pre>java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.TC56_PJDPFindItTest.tc56_pJDPFindItTest(TC56_PJDPFindItTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>14</td>
+<td>com.michaels.mobile.test.TC56_PJDPFindItTest@3ee37e5a</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest.tc58_couponsListWithoutStoreSetTest()'><b>tc58_couponsListWithoutStoreSetTest</b><br>Test class: com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest<br/>
+<a href="#Output-749460678" onClick='toggleBox("Output-749460678", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749460678" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749460678">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnCouponMain<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""<br/>
+Initiated Method to verify Coupons Page <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc58_couponsListWithoutStoreSetTest expected [true] but found [false]
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest.tc58_couponsListWithoutStoreSetTest(TC58_CouponsListWithoutStoreSetTest.java:51)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace749460678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace749460678'><pre>java.lang.AssertionError: ******* Test Case FAILED ******* tc58_couponsListWithoutStoreSetTest expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.DriverTest.failTestCase(DriverTest.java:120)
+	at com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest.tc58_couponsListWithoutStoreSetTest(TC58_CouponsListWithoutStoreSetTest.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>98</td>
+<td>com.michaels.mobile.test.TC58_CouponsListWithoutStoreSetTest@306e95ec</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest.tc60_couponsViewRestrictionsTest()'><b>tc60_couponsViewRestrictionsTest</b><br>Test class: com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest<br/>
+<a href="#Output-1250425021" onClick='toggleBox("Output-1250425021", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250425021" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250425021">
+Initiated Method to Verify app guide and land on Home page <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest.tc60_couponsViewRestrictionsTest(TC60_CouponsViewRestrictionsTest.java:44)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1250425021", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1250425021'><pre>java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest.tc60_couponsViewRestrictionsTest(TC60_CouponsViewRestrictionsTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>13</td>
+<td>com.michaels.mobile.test.TC60_CouponsViewRestrictionsTest@74751b3</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest.tc64_rewardsProfileSetupFromMoreMenuTest()'><b>tc64_rewardsProfileSetupFromMoreMenuTest</b><br>Test class: com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest<br/>
+<a href="#Output-1732145928" onClick='toggleBox("Output-1732145928", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1732145928" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1732145928">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnSignUp<br/>
+Initiated method to enter details and click on create account <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Unable to Create Account expected [true] but found [false]
+	at com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest.tc64_rewardsProfileSetupFromMoreMenuTest(TC64_RewardsProfileSetupFromMoreMenuTest.java:54)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1732145928", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1732145928'><pre>java.lang.AssertionError:  Unable to Create Account expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest.tc64_rewardsProfileSetupFromMoreMenuTest(TC64_RewardsProfileSetupFromMoreMenuTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>246</td>
+<td>com.michaels.mobile.test.TC64_RewardsProfileSetupFromMoreMenuTest@729d991e</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest.tc65_rewardsProfileSetUpWithCreateAccountTest()'><b>tc65_rewardsProfileSetUpWithCreateAccountTest</b><br>Test class: com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest<br/>
+<a href="#Output-554163274" onClick='toggleBox("Output-554163274", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554163274" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554163274">
+Initiated Method to Verify app guide and land on Home page <br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest.tc65_rewardsProfileSetUpWithCreateAccountTest(TC65_RewardsProfileSetUpWithCreateAccountTest.java:47)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace554163274", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace554163274'><pre>java.lang.AssertionError:  Unable to Verify App Guide  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest.tc65_rewardsProfileSetUpWithCreateAccountTest(TC65_RewardsProfileSetUpWithCreateAccountTest.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:383)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:344)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
+</pre></div></td>
+<td>12</td>
+<td>com.michaels.mobile.test.TC65_RewardsProfileSetUpWithCreateAccountTest@5a56cdac</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.michaels.mobile.test.TC01_AppGuideTest.tC01_appGuideTest()'><b>tC01_appGuideTest</b><br>Test class: com.michaels.mobile.test.TC01_AppGuideTest<br/>
+<a href="#Output-1088818894" onClick='toggleBox("Output-1088818894", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1088818894" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1088818894">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+******* Test Case PASSED ******* tC01_appGuideTest<br/>
+******* Test Case PASSED ******* tC01_appGuideTest<br/>
+</div>
+</td>
+<td></td>
+<td>42</td>
+<td>com.michaels.mobile.test.TC01_AppGuideTest@290222c1</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC02_HomePageTest.tc02_homePageTest()'><b>tc02_homePageTest</b><br>Test class: com.michaels.mobile.test.TC02_HomePageTest</td>
+<td></td>
+<td>12</td>
+<td>com.michaels.mobile.test.TC02_HomePageTest@7bab3f1a</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC03_AppGuideSignInTest.tc03_appGuideSignInTest()'><b>tc03_appGuideSignInTest</b><br>Test class: com.michaels.mobile.test.TC03_AppGuideSignInTest<br/>
+<a href="#Output-1445383049" onClick='toggleBox("Output-1445383049", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1445383049" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1445383049">
+Intitaited method to Click on Sigin in On App guide page<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+******* Test Case PASSED ******* tc03_appGuideSignInTest<br/>
+******* Test Case PASSED ******* tc03_appGuideSignInTest<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>com.michaels.mobile.test.TC03_AppGuideSignInTest@3cebbb30</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC04_CreateAccountAppGuideTest.tc04_createAccountAppGuideTest()'><b>tc04_createAccountAppGuideTest</b><br>Test class: com.michaels.mobile.test.TC04_CreateAccountAppGuideTest<br/>
+<a href="#Output-1982057485" onClick='toggleBox("Output-1982057485", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1982057485" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1982057485">
+Initiated Method to Click on Sign Up button on App guide Page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated method to enter details and click on create account <br/>
+Element is displayed Successfully*****Located by By.id: btnYes<br/>
+Element is displayed Successfully*****Located by By.id: btnNotRightNow<br/>
+******* Test Case PASSED ******* tc04_createAccountAppGuideTest<br/>
+******* Test Case PASSED ******* tc04_createAccountAppGuideTest<br/>
+</div>
+</td>
+<td></td>
+<td>141</td>
+<td>com.michaels.mobile.test.TC04_CreateAccountAppGuideTest@37d4349f</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC05_CreateAccountSignInTest.tc05_createAccountSignInTest()'><b>tc05_createAccountSignInTest</b><br>Test class: com.michaels.mobile.test.TC05_CreateAccountSignInTest<br/>
+<a href="#Output-1498158540" onClick='toggleBox("Output-1498158540", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1498158540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1498158540">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnSignIn<br/>
+Initiated Method to Click on Create Account <br/>
+Initiated method to enter details and click on create account <br/>
+Element is displayed Successfully*****Located by By.id: btnYes<br/>
+Element is displayed Successfully*****Located by By.id: btnNotRightNow<br/>
+******* Test Case PASSED ******* tc05_createAccountSignInTest<br/>
+******* Test Case PASSED ******* tc05_createAccountSignInTest<br/>
+</div>
+</td>
+<td></td>
+<td>152</td>
+<td>com.michaels.mobile.test.TC05_CreateAccountSignInTest@6e0f5f7f</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC06_TC07_HomeTileClickTest.tc06_tc07_homeTileClickTest()'><b>tc06_tc07_homeTileClickTest</b><br>Test class: com.michaels.mobile.test.TC06_TC07_HomeTileClickTest<br/>
+<a href="#Output-1114882774" onClick='toggleBox("Output-1114882774", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1114882774" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1114882774">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Verify Tile navigation <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""<br/>
+******* Test Case PASSED ******* tc06_tc07_homeTileClickTest<br/>
+******* Test Case PASSED ******* tc06_tc07_homeTileClickTest<br/>
+</div>
+</td>
+<td></td>
+<td>88</td>
+<td>com.michaels.mobile.test.TC06_TC07_HomeTileClickTest@6392827e</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC08_HomePageCarouselTest.tc08_homePageCarouselTest()'><b>tc08_homePageCarouselTest</b><br>Test class: com.michaels.mobile.test.TC08_HomePageCarouselTest<br/>
+<a href="#Output-1069567512" onClick='toggleBox("Output-1069567512", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1069567512" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1069567512">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Verify Carousel <br/>
+Element is displayed Successfully*****Located by By.id: flexCarouselContainer<br/>
+******* Test Case PASSED ******* tc08_homePageCarouselTest<br/>
+******* Test Case PASSED ******* tc08_homePageCarouselTest<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.michaels.mobile.test.TC08_HomePageCarouselTest@31fa1761</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest.tc11_setFavouriteStoreUsingZipCodeTest()'><b>tc11_setFavouriteStoreUsingZipCodeTest</b><br>Test class: com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest<br/>
+<a href="#Output-1834875436" onClick='toggleBox("Output-1834875436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1834875436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1834875436">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+******* Test Case PASSED ******* tc11_setFavouriteStoreUsingZipCodeTest<br/>
+******* Test Case PASSED ******* tc11_setFavouriteStoreUsingZipCodeTest<br/>
+</div>
+</td>
+<td></td>
+<td>106</td>
+<td>com.michaels.mobile.test.TC11_SetFavouriteStoreUsingZipCodeTest@32502377</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest.tc12_setFavouriteStoreUsingAddressTest()'><b>tc12_setFavouriteStoreUsingAddressTest</b><br>Test class: com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest<br/>
+<a href="#Output-2047642730" onClick='toggleBox("Output-2047642730", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2047642730" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2047642730">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+******* Test Case PASSED ******* tc12_setFavouriteStoreUsingAddressTest<br/>
+******* Test Case PASSED ******* tc12_setFavouriteStoreUsingAddressTest<br/>
+</div>
+</td>
+<td></td>
+<td>107</td>
+<td>com.michaels.mobile.test.TC12_SetFavouriteStoreUsingAddressTest@55634720</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest.tc13_changeFavouriteStoreTest()'><b>tc13_changeFavouriteStoreTest</b><br>Test class: com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest<br/>
+<a href="#Output-1775661089" onClick='toggleBox("Output-1775661089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1775661089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1775661089">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Change Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChangeStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+******* Test Case PASSED ******* tc13_changeFavouriteStoreTest<br/>
+******* Test Case PASSED ******* tc13_changeFavouriteStoreTest<br/>
+</div>
+</td>
+<td></td>
+<td>169</td>
+<td>com.michaels.mobile.test.TC13_ChangeFavouriteStoreTest@47e2e487</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest.tc14_removeFavouriteStoreTest()'><b>tc14_removeFavouriteStoreTest</b><br>Test class: com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest<br/>
+<a href="#Output-693660725" onClick='toggleBox("Output-693660725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-693660725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-693660725">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Remove Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChangeStore<br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+******* Test Case PASSED ******* tc14_removeFavouriteStoreTest<br/>
+******* Test Case PASSED ******* tc14_removeFavouriteStoreTest<br/>
+</div>
+</td>
+<td></td>
+<td>114</td>
+<td>com.michaels.mobile.test.TC14_RemoveFavouriteStoreTest@7bd4937b</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC16_StoreMapTest.tc16_storeMapTest()'><b>tc16_storeMapTest</b><br>Test class: com.michaels.mobile.test.TC16_StoreMapTest<br/>
+<a href="#Output-1391066918" onClick='toggleBox("Output-1391066918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1391066918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1391066918">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Element is displayed Successfully*****Located by By.id: btnStoreMap<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.className: android.webkit.WebView})" 
+- html content: "by id or name "androidWebView""<br/>
+Element is displayed Successfully*****Located by By.id: btnDepartments<br/>
+Element is displayed Successfully*****Located by By.id: btnAisles<br/>
+******* Test Case PASSED ******* tc16_storeMapTest<br/>
+******* Test Case PASSED ******* tc16_storeMapTest<br/>
+</div>
+</td>
+<td></td>
+<td>111</td>
+<td>com.michaels.mobile.test.TC16_StoreMapTest@d9345cd</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC17_ProductWayFindingTest.tc17_productWayFindingTest()'><b>tc17_productWayFindingTest</b><br>Test class: com.michaels.mobile.test.TC17_ProductWayFindingTest<br/>
+<a href="#Output-1481673178" onClick='toggleBox("Output-1481673178", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1481673178" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1481673178">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Aisle info not available<br/>
+******* Test Case PASSED ******* tc17_productWayFindingTest<br/>
+******* Test Case PASSED ******* tc17_productWayFindingTest<br/>
+</div>
+</td>
+<td></td>
+<td>133</td>
+<td>com.michaels.mobile.test.TC17_ProductWayFindingTest@bae7dc0</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC18_ProductsListPageTest.tc18_productsListPageTest()'><b>tc18_productsListPageTest</b><br>Test class: com.michaels.mobile.test.TC18_ProductsListPageTest<br/>
+<a href="#Output-718420824" onClick='toggleBox("Output-718420824", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718420824" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718420824">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+******* Test Case PASSED ******* tc18_productsListPageTest<br/>
+******* Test Case PASSED ******* tc18_productsListPageTest<br/>
+</div>
+</td>
+<td></td>
+<td>77</td>
+<td>com.michaels.mobile.test.TC18_ProductsListPageTest@659499f1</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC19_ProductsListPageScrollTest.tc19_productsListPageScrollTest()'><b>tc19_productsListPageScrollTest</b><br>Test class: com.michaels.mobile.test.TC19_ProductsListPageScrollTest<br/>
+<a href="#Output-578917867" onClick='toggleBox("Output-578917867", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-578917867" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-578917867">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+******* Test Case PASSED ******* tc19_productsListPageScrollTest<br/>
+******* Test Case PASSED ******* tc19_productsListPageScrollTest<br/>
+</div>
+</td>
+<td></td>
+<td>76</td>
+<td>com.michaels.mobile.test.TC19_ProductsListPageScrollTest@61001b64</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC21_CouponsSignInTest.tc21_couponsSignInTest()'><b>tc21_couponsSignInTest</b><br>Test class: com.michaels.mobile.test.TC21_CouponsSignInTest<br/>
+<a href="#Output-1422565607" onClick='toggleBox("Output-1422565607", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1422565607" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1422565607">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnSignIn<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnCouponMain<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button1})" 
+- html content: "by id or name "btn_Yes""<br/>
+Initiated Method to verify Coupons Page <br/>
+Element is displayed Successfully*****Located by By.id: lblCouponTitle<br/>
+******* Test Case PASSED ******* tc21_couponsSignInTest<br/>
+******* Test Case PASSED ******* tc21_couponsSignInTest<br/>
+</div>
+</td>
+<td></td>
+<td>113</td>
+<td>com.michaels.mobile.test.TC21_CouponsSignInTest@36916eb0</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC22_ProductAddToMyListTest.tc22_productAddToMyListTest()'><b>tc22_productAddToMyListTest</b><br>Test class: com.michaels.mobile.test.TC22_ProductAddToMyListTest<br/>
+<a href="#Output-196853057" onClick='toggleBox("Output-196853057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-196853057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-196853057">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnSignIn<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: flxProductDetails1<br/>
+******* Test Case PASSED ******* tc22_productAddToMyListTest<br/>
+******* Test Case PASSED ******* tc22_productAddToMyListTest<br/>
+</div>
+</td>
+<td></td>
+<td>143</td>
+<td>com.michaels.mobile.test.TC22_ProductAddToMyListTest@618425b5</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest.tc23_productAddToMyListNotSignedInTest()'><b>tc23_productAddToMyListNotSignedInTest</b><br>Test class: com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest<br/>
+<a href="#Output-1603821647" onClick='toggleBox("Output-1603821647", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1603821647" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1603821647">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: flxProductDetails1<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+******* Test Case PASSED ******* tc23_productAddToMyListNotSignedInTest<br/>
+******* Test Case PASSED ******* tc23_productAddToMyListNotSignedInTest<br/>
+</div>
+</td>
+<td></td>
+<td>132</td>
+<td>com.michaels.mobile.test.TC23_ProductAddToMyListNotSignedInTest@4c1909a3</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC24_ProductBuyOnlineTest.tc24_productBuyOnlineTest()'><b>tc24_productBuyOnlineTest</b><br>Test class: com.michaels.mobile.test.TC24_ProductBuyOnlineTest<br/>
+<a href="#Output-2135370600" onClick='toggleBox("Output-2135370600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2135370600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2135370600">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: flxProductDetails1<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.className: android.webkit.WebView})" 
+- html content: "by id or name "androidWebView""<br/>
+******* Test Case PASSED ******* tc24_productBuyOnlineTest<br/>
+******* Test Case PASSED ******* tc24_productBuyOnlineTest<br/>
+</div>
+</td>
+<td></td>
+<td>85</td>
+<td>com.michaels.mobile.test.TC24_ProductBuyOnlineTest@4efac082</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest.tc27_showMoreUpto15ProductsTest()'><b>tc27_showMoreUpto15ProductsTest</b><br>Test class: com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest<br/>
+<a href="#Output-1872224034" onClick='toggleBox("Output-1872224034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1872224034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1872224034">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: flxProductDetails1<br/>
+Intiated method for finding Text presence....<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Unable to find the text<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Unable to find the text<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Unable to find the text<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Unable to find the text<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Got the Required Text :SHOW MORE<br/>
+Element is displayed Successfully*****Located by By.id: ShowMoreProducts<br/>
+Intiated method for finding Text presence....<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Got the Required Text :SHOW MORE<br/>
+Element is displayed Successfully*****Located by By.id: ShowMoreProducts<br/>
+Intiated method for finding Text presence....<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Got the Required Text :SHOW MORE<br/>
+Element is displayed Successfully*****Located by By.id: ShowMoreProducts<br/>
+Intiated method for finding Text presence....<br/>
+Intiated Method to Find the Text...SHOW MORE<br/>
+Got the Required Text :SHOW MORE<br/>
+Element is displayed Successfully*****Located by By.id: ShowMoreProducts<br/>
+******* Test Case PASSED ******* tc27_showMoreUpto15ProductsTest<br/>
+******* Test Case PASSED ******* tc27_showMoreUpto15ProductsTest<br/>
+</div>
+</td>
+<td></td>
+<td>137</td>
+<td>com.michaels.mobile.test.TC27_ShowMoreUpto15ProductsTest@25fb8912</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC28_PLPSortByTest.tc28_pLPSortByTest()'><b>tc28_pLPSortByTest</b><br>Test class: com.michaels.mobile.test.TC28_PLPSortByTest<br/>
+<a href="#Output-429123436" onClick='toggleBox("Output-429123436", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-429123436" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-429123436">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: frmSortAndRefine<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Price: low-high']})" 
+- html content: "by id or name "lowToHigh""<br/>
+Element is displayed Successfully*****Located by By.id: btnDone<br/>
+Price1119.99<br/>
+Price2194.99<br/>
+******* Test Case PASSED ******* tc28_pLPSortByTest<br/>
+******* Test Case PASSED ******* tc28_pLPSortByTest<br/>
+</div>
+</td>
+<td></td>
+<td>90</td>
+<td>com.michaels.mobile.test.TC28_PLPSortByTest@3c7f66c4</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC29_PLPShopByTest.tc29_pLPShopByTest()'><b>tc29_pLPShopByTest</b><br>Test class: com.michaels.mobile.test.TC29_PLPShopByTest<br/>
+<a href="#Output-1315308399" onClick='toggleBox("Output-1315308399", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1315308399" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1315308399">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: frmSortAndRefine<br/>
+******* Test Case PASSED ******* tc29_pLPShopByTest<br/>
+******* Test Case PASSED ******* tc29_pLPShopByTest<br/>
+</div>
+</td>
+<td></td>
+<td>91</td>
+<td>com.michaels.mobile.test.TC29_PLPShopByTest@485966cc</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC31_ProjectsLandingPageTest.tc31_projectsLandingPageTest()'><b>tc31_projectsLandingPageTest</b><br>Test class: com.michaels.mobile.test.TC31_ProjectsLandingPageTest<br/>
+<a href="#Output-614783665" onClick='toggleBox("Output-614783665", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-614783665" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-614783665">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+******* Test Case PASSED ******* tc31_projectsLandingPageTest<br/>
+******* Test Case PASSED ******* tc31_projectsLandingPageTest<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>com.michaels.mobile.test.TC31_ProjectsLandingPageTest@29215f06</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC32_ProjectsListPageTest.tc32_projectsListPageTest()'><b>tc32_projectsListPageTest</b><br>Test class: com.michaels.mobile.test.TC32_ProjectsListPageTest<br/>
+<a href="#Output-1795158061" onClick='toggleBox("Output-1795158061", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1795158061" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1795158061">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+******* Test Case PASSED ******* tc32_projectsListPageTest<br/>
+******* Test Case PASSED ******* tc32_projectsListPageTest<br/>
+</div>
+</td>
+<td></td>
+<td>61</td>
+<td>com.michaels.mobile.test.TC32_ProjectsListPageTest@4659191b</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC33_ProjectsListPageScrollTest.tc33_projectsListPageScrollTest()'><b>tc33_projectsListPageScrollTest</b><br>Test class: com.michaels.mobile.test.TC33_ProjectsListPageScrollTest<br/>
+<a href="#Output-907204722" onClick='toggleBox("Output-907204722", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-907204722" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-907204722">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: segProjectList<br/>
+******* Test Case PASSED ******* tc33_projectsListPageScrollTest<br/>
+******* Test Case PASSED ******* tc33_projectsListPageScrollTest<br/>
+</div>
+</td>
+<td></td>
+<td>63</td>
+<td>com.michaels.mobile.test.TC33_ProjectsListPageScrollTest@54bff557</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC34_ProjectDetailsPageTest.tc34_projectDetailsPageTest()'><b>tc34_projectDetailsPageTest</b><br>Test class: com.michaels.mobile.test.TC34_ProjectDetailsPageTest<br/>
+<a href="#Output-183651747" onClick='toggleBox("Output-183651747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-183651747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-183651747">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: frmPJDP<br/>
+******* Test Case PASSED ******* tc34_projectDetailsPageTest<br/>
+******* Test Case PASSED ******* tc34_projectDetailsPageTest<br/>
+</div>
+</td>
+<td></td>
+<td>67</td>
+<td>com.michaels.mobile.test.TC34_ProjectDetailsPageTest@54a7079e</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest.tc35_projectsBuyOnlineTest()'><b>tc35_projectsBuyOnlineTest</b><br>Test class: com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest<br/>
+<a href="#Output-907568283" onClick='toggleBox("Output-907568283", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-907568283" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-907568283">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: frmPJDP<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.className: android.webkit.WebView})" 
+- html content: "by id or name "androidWebView""<br/>
+******* Test Case PASSED ******* tc35_projectsBuyOnlineTest<br/>
+******* Test Case PASSED ******* tc35_projectsBuyOnlineTest<br/>
+</div>
+</td>
+<td></td>
+<td>93</td>
+<td>com.michaels.mobile.test.TC35_ProjectsBuyOnlineTest@48aca48b</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest.tc36_pJLPRefineBySkillLevelTest()'><b>tc36_pJLPRefineBySkillLevelTest</b><br>Test class: com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest<br/>
+<a href="#Output-922712339" onClick='toggleBox("Output-922712339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-922712339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-922712339">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: frmRefineProjects<br/>
+******* Test Case PASSED ******* tc36_pJLPRefineBySkillLevelTest<br/>
+******* Test Case PASSED ******* tc36_pJLPRefineBySkillLevelTest<br/>
+</div>
+</td>
+<td></td>
+<td>74</td>
+<td>com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest@e15b7e8</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest.tc37_pJLPRefineByCraftingTimeTest()'><b>tc37_pJLPRefineByCraftingTimeTest</b><br>Test class: com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest<br/>
+<a href="#Output-797485087" onClick='toggleBox("Output-797485087", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-797485087" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-797485087">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: frmRefineProjects<br/>
+******* Test Case PASSED ******* tc37_pJLPRefineByCraftingTimeTest<br/>
+******* Test Case PASSED ******* tc37_pJLPRefineByCraftingTimeTest<br/>
+</div>
+</td>
+<td></td>
+<td>73</td>
+<td>com.michaels.mobile.test.TC37_PJLPRefineByCraftingTimeTest@7c711375</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC38_TextSearchOneWordTest.tc38_textSearchOneWordTest()'><b>tc38_textSearchOneWordTest</b><br>Test class: com.michaels.mobile.test.TC38_TextSearchOneWordTest<br/>
+<a href="#Output-1601887795" onClick='toggleBox("Output-1601887795", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1601887795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1601887795">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to verify Text Search with One Word <br/>
+Element is displayed Successfully*****Located by By.id: segProductsList<br/>
+******* Test Case PASSED ******* tc38_textSearchOneWordTest<br/>
+******* Test Case PASSED ******* tc38_textSearchOneWordTest<br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>com.michaels.mobile.test.TC38_TextSearchOneWordTest@4dbb42b7</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest.tc40_textSearchMorethan1WordTest()'><b>tc40_textSearchMorethan1WordTest</b><br>Test class: com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest<br/>
+<a href="#Output-1656694315" onClick='toggleBox("Output-1656694315", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1656694315" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1656694315">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to verify Text Search with One Word <br/>
+Element is displayed Successfully*****Located by By.id: segProductsList<br/>
+******* Test Case PASSED ******* tc40_textSearchMorethan1WordTest<br/>
+******* Test Case PASSED ******* tc40_textSearchMorethan1WordTest<br/>
+</div>
+</td>
+<td></td>
+<td>58</td>
+<td>com.michaels.mobile.test.TC40_TextSearchMorethan1WordTest@2ea41516</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest.tc41_textSearchFrenchOneWordTest()'><b>tc41_textSearchFrenchOneWordTest</b><br>Test class: com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest<br/>
+<a href="#Output-1974895267" onClick='toggleBox("Output-1974895267", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1974895267" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1974895267">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to change to French locale <br/>
+Element is displayed Successfully*****Located by By.id: imgLogo<br/>
+Initiated Method to verify Text Search with One Word <br/>
+Element is displayed Successfully*****Located by By.id: segProductsList<br/>
+******* Test Case PASSED ******* tc41_textSearchFrenchOneWordTest<br/>
+******* Test Case PASSED ******* tc41_textSearchFrenchOneWordTest<br/>
+</div>
+</td>
+<td></td>
+<td>80</td>
+<td>com.michaels.mobile.test.TC41_TextSearchFrenchOneWordTest@543588e6</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest.tc42_textSearchFrenchTwoWordTest()'><b>tc42_textSearchFrenchTwoWordTest</b><br>Test class: com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest<br/>
+<a href="#Output-885200859" onClick='toggleBox("Output-885200859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-885200859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-885200859">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to change to French locale <br/>
+Element is displayed Successfully*****Located by By.id: imgLogo<br/>
+Initiated Method to verify Text Search with One Word <br/>
+Element is displayed Successfully*****Located by By.id: segProductsList<br/>
+******* Test Case PASSED ******* tc42_textSearchFrenchTwoWordTest<br/>
+******* Test Case PASSED ******* tc42_textSearchFrenchTwoWordTest<br/>
+</div>
+</td>
+<td></td>
+<td>75</td>
+<td>com.michaels.mobile.test.TC42_TextSearchFrenchTwoWordTest@47d9a273</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC43_SignInMoreMenuTest.tc43_signInMoreMenuTest()'><b>tc43_signInMoreMenuTest</b><br>Test class: com.michaels.mobile.test.TC43_SignInMoreMenuTest<br/>
+<a href="#Output-1259199255" onClick='toggleBox("Output-1259199255", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1259199255" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1259199255">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnSignIn<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+******* Test Case PASSED ******* tc43_signInMoreMenuTest<br/>
+******* Test Case PASSED ******* tc43_signInMoreMenuTest<br/>
+</div>
+</td>
+<td></td>
+<td>87</td>
+<td>com.michaels.mobile.test.TC43_SignInMoreMenuTest@23c30a20</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC44_SignInFromMyListScreenTest.tc44_signInFromMyListScreenTest()'><b>tc44_signInFromMyListScreenTest</b><br>Test class: com.michaels.mobile.test.TC44_SignInFromMyListScreenTest<br/>
+<a href="#Output-1007947611" onClick='toggleBox("Output-1007947611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1007947611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1007947611">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='MY LIST']})" 
+- html content: "by id or name "myList_Page""<br/>
+******* Test Case PASSED ******* tc44_signInFromMyListScreenTest<br/>
+******* Test Case PASSED ******* tc44_signInFromMyListScreenTest<br/>
+</div>
+</td>
+<td></td>
+<td>87</td>
+<td>com.michaels.mobile.test.TC44_SignInFromMyListScreenTest@4fb3ee4e</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC45_SignInFromPDPTest.tc45_signInFromPDPTest()'><b>tc45_signInFromPDPTest</b><br>Test class: com.michaels.mobile.test.TC45_SignInFromPDPTest<br/>
+<a href="#Output-1397996183" onClick='toggleBox("Output-1397996183", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1397996183" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1397996183">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to Click on Shop Menu <br/>
+Initiated Method to verify product details page <br/>
+ Initiated Method to Verify products Page <br/>
+Element is displayed Successfully*****Located by By.id: frmProducts<br/>
+Products Page is displayed<br/>
+Element is displayed Successfully*****Located by By.id: frmProductsList<br/>
+Element is displayed Successfully*****Located by By.id: flxProductDetails1<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+******* Test Case PASSED ******* tc45_signInFromPDPTest<br/>
+******* Test Case PASSED ******* tc45_signInFromPDPTest<br/>
+</div>
+</td>
+<td></td>
+<td>132</td>
+<td>com.michaels.mobile.test.TC45_SignInFromPDPTest@316bcf94</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC46_SignInFromPJDPTest.tc46_signInFromPJDPTest()'><b>tc46_signInFromPJDPTest</b><br>Test class: com.michaels.mobile.test.TC46_SignInFromPJDPTest<br/>
+<a href="#Output-1300617296" onClick='toggleBox("Output-1300617296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1300617296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1300617296">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: frmPJDP<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+******* Test Case PASSED ******* tc46_signInFromPJDPTest<br/>
+******* Test Case PASSED ******* tc46_signInFromPJDPTest<br/>
+</div>
+</td>
+<td></td>
+<td>123</td>
+<td>com.michaels.mobile.test.TC46_SignInFromPJDPTest@6253c26</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest.tc48_signUpFromMoreMenuTest()'><b>tc48_signUpFromMoreMenuTest</b><br>Test class: com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest<br/>
+<a href="#Output-1075036671" onClick='toggleBox("Output-1075036671", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1075036671" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1075036671">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnSignUp<br/>
+Initiated method to enter details and click on create account <br/>
+Element is displayed Successfully*****Located by By.id: btnYes<br/>
+Element is displayed Successfully*****Located by By.id: btnNotRightNow<br/>
+</div>
+</td>
+<td></td>
+<td>155</td>
+<td>com.michaels.mobile.test.TC48_SignUpFromMoreMenuTest@6fd83fc1</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest.tc49_setFavouriteStoreFromMoreTest()'><b>tc49_setFavouriteStoreFromMoreTest</b><br>Test class: com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest<br/>
+<a href="#Output-154500588" onClick='toggleBox("Output-154500588", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-154500588" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-154500588">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SetMyStore <br/>
+Element is displayed Successfully*****Located by By.id: lblMyStore<br/>
+Initiated Method to Select Store<br/>
+Initiated Method to Click on Back button <br/>
+Element is displayed Successfully*****Located by By.id: flxBackToProducts<br/>
+Initiated Method to verify MyStore Set <br/>
+Element is displayed Successfully*****Located by By.id: lblMyStoreName<br/>
+******* Test Case PASSED ******* tc49_setFavouriteStoreFromMoreTest<br/>
+******* Test Case PASSED ******* tc49_setFavouriteStoreFromMoreTest<br/>
+</div>
+</td>
+<td></td>
+<td>101</td>
+<td>com.michaels.mobile.test.TC49_SetFavouriteStoreFromMoreTest@27f981c6</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC50_StoreInfoTest.tc50_storeInfoTest()'><b>tc50_storeInfoTest</b><br>Test class: com.michaels.mobile.test.TC50_StoreInfoTest<br/>
+<a href="#Output-1248892401" onClick='toggleBox("Output-1248892401", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1248892401" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1248892401">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to verify Store Info<br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Element is displayed Successfully*****Located by By.id: btnStoreInfo<br/>
+Element is displayed Successfully*****Located by By.id: flxMyStoreDetailsNew<br/>
+Element is displayed Successfully*****Located by By.id: btnStoreMapMap<br/>
+Element is displayed Successfully*****Located by By.id: lblStoreHours<br/>
+******* Test Case PASSED ******* tc50_storeInfoTest<br/>
+******* Test Case PASSED ******* tc50_storeInfoTest<br/>
+</div>
+</td>
+<td></td>
+<td>106</td>
+<td>com.michaels.mobile.test.TC50_StoreInfoTest@82de64a</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest.tc51_couponAddToWalletfromHomeTest()'><b>tc51_couponAddToWalletfromHomeTest</b><br>Test class: com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest<br/>
+<a href="#Output-1625578546" onClick='toggleBox("Output-1625578546", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1625578546" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1625578546">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Click on Coupons Button <br/>
+Element is displayed Successfully*****Located by By.id: btnCoupon<br/>
+Initiated Method to verify Coupons Page <br/>
+Element is displayed Successfully*****Located by By.id: lblCouponTitle<br/>
+Initiated Method to verify Add Wallet Coupons Page<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='ADD TO WALLET']})" 
+- html content: "by id or name "btnAddToWallet""<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: com.google.android.apps.walletnfcrel:id/AccountSpinnerContainer})" 
+- html content: "by id or name "walletApp""<br/>
+******* Test Case PASSED ******* tc51_couponAddToWalletfromHomeTest<br/>
+******* Test Case PASSED ******* tc51_couponAddToWalletfromHomeTest<br/>
+</div>
+</td>
+<td></td>
+<td>119</td>
+<td>com.michaels.mobile.test.TC51_CouponAddToWalletfromHomeTest@342c38f8</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC52_ProjectsAddToMyListTest.tc52_projectsAddToMyListTest()'><b>tc52_projectsAddToMyListTest</b><br>Test class: com.michaels.mobile.test.TC52_ProjectsAddToMyListTest<br/>
+<a href="#Output-463721358" onClick='toggleBox("Output-463721358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-463721358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-463721358">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnSignIn<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: frmPJDP<br/>
+******* Test Case PASSED ******* tc52_projectsAddToMyListTest<br/>
+******* Test Case PASSED ******* tc52_projectsAddToMyListTest<br/>
+</div>
+</td>
+<td></td>
+<td>130</td>
+<td>com.michaels.mobile.test.TC52_ProjectsAddToMyListTest@1151e434</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn.tc53_pJDPAddtoMyListNotLoggedIn()'><b>tc53_pJDPAddtoMyListNotLoggedIn</b><br>Test class: com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn<br/>
+<a href="#Output-271437611" onClick='toggleBox("Output-271437611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-271437611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-271437611">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on Projects Menu <br/>
+Element is displayed Successfully*****Located by By.id: frmProjects<br/>
+Element is displayed Successfully*****Located by By.id: frmProjectsList<br/>
+Element is displayed Successfully*****Located by By.id: frmPJDP<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='You’re logged in now.']})" 
+- html content: "by id or name "txt_loginSuccess""<br/>
+******* Test Case PASSED ******* tc53_pJDPAddtoMyListNotLoggedIn<br/>
+******* Test Case PASSED ******* tc53_pJDPAddtoMyListNotLoggedIn<br/>
+</div>
+</td>
+<td></td>
+<td>120</td>
+<td>com.michaels.mobile.test.TC53_PJDPAddtoMyListNotLoggedIn@5b03b9fe</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC57_HomePageTilesTest.tc57_homePageTilesTest()'><b>tc57_homePageTilesTest</b><br>Test class: com.michaels.mobile.test.TC57_HomePageTilesTest<br/>
+<a href="#Output-1668692604" onClick='toggleBox("Output-1668692604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1668692604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1668692604">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Click on More Menu <br/>
+Element is displayed Successfully*****Located by By.id: fxlContainer<br/>
+******* Test Case PASSED ******* tc57_homePageTilesTest<br/>
+******* Test Case PASSED ******* tc57_homePageTilesTest<br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>com.michaels.mobile.test.TC57_HomePageTilesTest@3e11f9e9</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest.tc59_couponsListWithStoreSetTest()'><b>tc59_couponsListWithStoreSetTest</b><br>Test class: com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest<br/>
+<a href="#Output-834256744" onClick='toggleBox("Output-834256744", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-834256744" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-834256744">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Click on More Menu <br/>
+Initiated Method to Click on SignIn Button <br/>
+Element is displayed Successfully*****Located by By.id: btnCouponMain<br/>
+Initiated Method to verify Coupons Page <br/>
+Element is displayed Successfully*****Located by By.id: lblCouponTitle<br/>
+******* Test Case PASSED ******* tc59_couponsListWithStoreSetTest<br/>
+******* Test Case PASSED ******* tc59_couponsListWithStoreSetTest<br/>
+</div>
+</td>
+<td></td>
+<td>112</td>
+<td>com.michaels.mobile.test.TC59_CouponsListWithStoreSetTest@2c35e847</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest.tc61_couponDetailsCloseButtonTest()'><b>tc61_couponDetailsCloseButtonTest</b><br>Test class: com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest<br/>
+<a href="#Output-1335721289" onClick='toggleBox("Output-1335721289", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1335721289" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1335721289">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Click on Coupons Button <br/>
+Element is displayed Successfully*****Located by By.id: btnCoupon<br/>
+Initiated Method to verify View Restrictions<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='VIEW RESTRICTIONS']})" 
+- html content: "by id or name "btnViewRestrictions""<br/>
+Element is displayed Successfully*****Located by By.id: lblOfferTitle1Restrictions<br/>
+Element is displayed Successfully*****Located by By.id: lblPromoCodeRestrictions<br/>
+Element is displayed Successfully*****Located by By.id: lblValidityRestrictions<br/>
+Element is displayed Successfully*****Located by By.id: imgBarcodeRestrictions<br/>
+Element is displayed Successfully*****Located by By.id: rchTxtRetrictions<br/>
+Element is displayed Successfully*****Located by By.id: flxCloseBtnWrap<br/>
+Initiated Method to verify Close button functionality of View Restrictions<br/>
+Element is displayed Successfully*****Located by By.id: flxCloseBtnWrap<br/>
+Element is displayed Successfully*****Located by By.id: lblCouponTitle<br/>
+******* Test Case PASSED ******* tc61_couponDetailsCloseButtonTest<br/>
+******* Test Case PASSED ******* tc61_couponDetailsCloseButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>113</td>
+<td>com.michaels.mobile.test.TC61_CouponDetailsCloseButtonTest@ffaa6af</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC62_CouponAddToWalletTest.tc62_couponAddToWalletTest()'><b>tc62_couponAddToWalletTest</b><br>Test class: com.michaels.mobile.test.TC62_CouponAddToWalletTest<br/>
+<a href="#Output-1734761125" onClick='toggleBox("Output-1734761125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1734761125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1734761125">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Click on Coupons Button <br/>
+Element is displayed Successfully*****Located by By.id: btnCoupon<br/>
+Initiated Method to verify Coupons Page <br/>
+Element is displayed Successfully*****Located by By.id: lblCouponTitle<br/>
+Initiated Method to verify Add Wallet Coupons Page<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='ADD TO WALLET']})" 
+- html content: "by id or name "btnAddToWallet""<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: com.google.android.apps.walletnfcrel:id/AccountSpinnerContainer})" 
+- html content: "by id or name "walletApp""<br/>
+******* Test Case PASSED ******* tc62_couponAddToWalletTest<br/>
+******* Test Case PASSED ******* tc62_couponAddToWalletTest<br/>
+</div>
+</td>
+<td></td>
+<td>116</td>
+<td>com.michaels.mobile.test.TC62_CouponAddToWalletTest@54e1c68b</td></tr>
+<tr>
+<td title='com.michaels.mobile.test.TC63_CouponsDoneButtonTest.tc63_couponsDoneButtonTest()'><b>tc63_couponsDoneButtonTest</b><br>Test class: com.michaels.mobile.test.TC63_CouponsDoneButtonTest<br/>
+<a href="#Output-1234689347" onClick='toggleBox("Output-1234689347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1234689347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1234689347">
+Initiated Method to Verify app guide and land on Home page <br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.id: android:id/button2})" 
+- html content: "by id or name "btnDenyLocationAccess""<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by By.id: flexGuideControl41<br/>
+Element is displayed Successfully*****Located by Locator map: 
+- native content: "By.chained({By.xpath: //*[@text='Deny']})" 
+- html content: "by id or name "btnDeny""<br/>
+Initiated Method to Set Favourite Store <br/>
+Element is displayed Successfully*****Located by By.id: btnChooseStore<br/>
+Initiated Method to Select Store<br/>
+Element is displayed Successfully*****Located by By.id: lblChevron<br/>
+Initiated Method to Click on Coupons Button <br/>
+Element is displayed Successfully*****Located by By.id: btnCoupon<br/>
+Initiated Method to verify Coupons Page <br/>
+Element is displayed Successfully*****Located by By.id: lblCouponTitle<br/>
+Initiated Method to verify Done button functionality of Coupons Page<br/>
+Element is displayed Successfully*****Located by By.id: btnDone<br/>
+Element is displayed Successfully*****Located by By.id: imgLogo<br/>
+******* Test Case PASSED ******* tc63_couponsDoneButtonTest<br/>
+******* Test Case PASSED ******* tc63_couponsDoneButtonTest<br/>
+</div>
+</td>
+<td></td>
+<td>116</td>
+<td>com.michaels.mobile.test.TC63_CouponsDoneButtonTest@2ed2d9cb</td></tr>
+</table><p>
+</body>
+</html>

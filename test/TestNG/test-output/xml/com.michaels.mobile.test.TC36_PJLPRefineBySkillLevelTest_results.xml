@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="63.202">
+  <properties />
+  
+  
+            <testcase name="tc36_pJLPRefineBySkillLevelTest" time="63.202" classname="com.michaels.mobile.test.TC36_PJLPRefineBySkillLevelTest" />
+      
+</testsuite>
