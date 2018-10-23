@@ -603,6 +603,7 @@ public boolean verifyCreateAccount(){
 				return flag;
 }
 	
-uncomment for android*/
+
 }
+*/
 
