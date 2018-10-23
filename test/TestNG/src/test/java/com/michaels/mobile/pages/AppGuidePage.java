@@ -97,8 +97,8 @@ public class AppGuidePage extends DriverPage{
 				btn_allow_pushNotifications.click();
 				Thread.sleep(5000);
 				//btn_allowAlways_location.click();
-				btn_dontAllow_location.click();
 				btn_Next.click();
+				btn_dontAllow_location.click();
 				btn_next_turnOn_bluetooth.click();
 				btn_Skip.click();
 				return true;
