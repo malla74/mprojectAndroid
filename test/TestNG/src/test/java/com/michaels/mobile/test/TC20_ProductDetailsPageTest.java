@@ -1,4 +1,4 @@
-/*
+
 package com.michaels.mobile.test;
 
 import org.testng.annotations.AfterClass;
@@ -45,4 +45,4 @@ public class TC20_ProductDetailsPageTest extends DriverTest {
 	}
 
 }
-*/
+
