@@ -53,9 +53,12 @@ public class AppGuidePage extends DriverPage{
     public WebElement btn_Skip1;
     
   
-    @iOSFindBy(id = "flexGuideControl21")
-    public WebElement btn_Allow_Location;
+   // @iOSFindBy(id = "flexGuideControl21")
+    //public WebElement btn_Allow_Location;
     
+	@iOSFindBy(id = "flexGuideControl22")
+	public WebElement btn_notRightNow;
+	
    @iOSFindBy(id = "Allow")
    public WebElement btn_Allow;
     
@@ -107,11 +110,12 @@ public class AppGuidePage extends DriverPage{
             if ("MAC".equalsIgnoreCase(platformName)) {
                 btn_seewhatsnew.click();
                 System.out.println("see whats new");
-                btn_Allow_Location.click();
-                System.out.println("AllowLocation");
+		btn_notRightNow.click();
+                //btn_Allow_Location.click();
+                System.out.println("not rightnow location clicked");
                 
-                btn_Allow.click();
-                System.out.println("Allow");
+                //btn_Allow.click();
+                //System.out.println("Allow");
                 
                 btn_OK.click();
                 System.out.println("Ok");
