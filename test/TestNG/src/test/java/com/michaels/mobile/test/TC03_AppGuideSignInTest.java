@@ -1,3 +1,5 @@
+
+/*
 package com.michaels.mobile.test;
 
 import static org.testng.Assert.assertTrue;
@@ -51,3 +53,4 @@ public class TC03_AppGuideSignInTest extends DriverTest{
 	}
 
 }
+*/
