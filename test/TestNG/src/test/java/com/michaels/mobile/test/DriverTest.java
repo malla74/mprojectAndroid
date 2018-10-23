@@ -246,7 +246,7 @@ public abstract class DriverTest {
 				Log.info("PLATFORM : " + platformName);
 				driver = iosdriver;
 				*/
-	}
+	// uncomment for android}
 	
 		/**
 	 * To Pass The Test case and print the the case name
