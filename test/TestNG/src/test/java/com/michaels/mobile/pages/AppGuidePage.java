@@ -115,6 +115,7 @@ public class AppGuidePage extends DriverPage{
                 
                 btn_OK.click();
                 System.out.println("Ok");
+		    Thread.sleep(5000);
                 btn_DontAllow_pushNotifications.click();
                 System.out.println("DontAllow_pushNotifications");
                // Thread.sleep(5000);
