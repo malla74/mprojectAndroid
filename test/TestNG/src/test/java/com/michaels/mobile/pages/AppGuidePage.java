@@ -185,7 +185,7 @@ public class AppGuidePage extends DriverPage{
             return false;
         }
         
-    }}
+  }}
 
 
 
@@ -278,8 +278,7 @@ public class AppGuidePage extends DriverPage{
 
 	// Methods that performs operations in the Form
 		
-	
-*/				
+					
 	
 	/*
 		public boolean verifyAppGuide(){
