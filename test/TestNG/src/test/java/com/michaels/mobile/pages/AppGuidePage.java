@@ -38,7 +38,7 @@ public class AppGuidePage extends DriverPage{
     public WebElement btn_OK;
     
     
-    @FindBy(id = "flexGuideControl41")
+    @FindBy(id = "flexGuideControl31")
     public WebElement btn_Next;
     
     @FindBy(id = "flexGuideControl51")
@@ -59,8 +59,8 @@ public class AppGuidePage extends DriverPage{
    @iOSFindBy(id = "Allow")
    public WebElement btn_Allow;
     
-    @iOSFindBy(id = "Allow")
-    public WebElement btn_allow_pushNotifications;
+    @iOSFindBy(id = "DontAllow")
+    public WebElement btn_DontAllow_pushNotifications;
     
     @iOSFindBy(id = "Always Allow")
     public WebElement btn_AlwaysAllow_location;
@@ -68,11 +68,11 @@ public class AppGuidePage extends DriverPage{
     @iOSFindBy(id = "Don't Allow")
     public WebElement btn_dontAllow_location;
     
-    @iOSFindBy(id = "flexGuideControl51")
+    @iOSFindBy(id = "flexGuideControl41")
     public WebElement btn_Next1;
     
-    //@iOSFindBy(id = "flexGuideControl41")
-    //public WebElement btn_NEXT;
+    @iOSFindBy(id = "flexGuideControl51")
+    public WebElement btn_NEXT;
     
     //@iOSFindBy(id = "flexGuideControl41")
     //public WebElement btn_NEXT1;
@@ -115,10 +115,11 @@ public class AppGuidePage extends DriverPage{
                 
                 btn_OK.click();
                 System.out.println("Ok");
-                btn_allow_pushNotifications.click();
-                System.out.println("allow_pushNotifications");
-                Thread.sleep(5000);
-                
+                btn_DontAllow_pushNotifications.click();
+                System.out.println("DontAllow_pushNotifications");
+               // Thread.sleep(5000);
+                 btn_Next.click();
+                System.out.println("Next");
                btn_AlwaysAllow_location.click();
                System.out.println("AlwaysAllow");
                 
@@ -126,16 +127,16 @@ public class AppGuidePage extends DriverPage{
                 
                
                
-                btn_Next.click();
-                System.out.println("Next");
+                btn_Next1.click();
+                System.out.println("Next1");
                 
                 //btn_AlwaysAllow_location.click();
                 //System.out.println("AllowAlways_location");
                 
-                btn_Next1.click();
-                System.out.println("Next1");
-             //   btn_NEXT2.click();
-               // System.out.println("NEXT2");
+                btn_NEXT.click();
+                System.out.println("NEXT);
+             //btn_NEXT.click();
+              //  System.out.println("NEXT");
                 
                 btn_next_turnOn_bluetooth.click();
                 System.out.println("next_turnOn_bluetooth");
