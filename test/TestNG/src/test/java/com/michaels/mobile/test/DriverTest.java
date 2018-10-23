@@ -54,7 +54,7 @@ public abstract class DriverTest {
 		Log.info("Setting the Capabilities");
 		capabilities = new DesiredCapabilities();
 		capabilities.setCapability("newCommandTimeout", 80);
-/*
+
 		// Android Mobile desired Capabilities
 		
 		//capabilities.setCapability("deviceName", "4d00b67a4ba55125");		
@@ -76,7 +76,7 @@ public abstract class DriverTest {
 		driver = androiddriver;
 		
 		System.setProperty("org.apache.commons.logging.Log", "org.apache.commons.logging.impl.Jdk14Logger");
-		*/
+		
 		
 		/*capabilities.setCapability("appPackage", "com.orgname.ConnectedRetail");
 		capabilities.setCapability("appActivity", "com.orgname.ConnectedRetail.ConnectedRetail");*/
