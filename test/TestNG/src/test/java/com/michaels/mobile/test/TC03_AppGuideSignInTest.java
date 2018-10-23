@@ -7,6 +7,8 @@ import static org.testng.Assert.assertTrue;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+
+/*
 import org.testng.annotations.Test;
 
 import com.michaels.mobile.pages.AppGuidePage;
@@ -54,3 +56,4 @@ public class TC03_AppGuideSignInTest extends DriverTest{
 
 }
 
+*/
