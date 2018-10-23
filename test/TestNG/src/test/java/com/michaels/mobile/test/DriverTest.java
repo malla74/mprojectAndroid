@@ -94,7 +94,7 @@ public abstract class DriverTest {
 				capabilities.setCapability("xcodeOrgId", "XASDPH97N6");
 				capabilities.setCapability("xcodeSigningId", "iPhone Developer");
 
-				iosdriver = new IOSDriver(new URL("http://10.20.19.45:4723/wd/hub"), capabilities);
+				iosdriver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 				platformName = iosdriver.getCapabilities().getPlatform().toString();
 				Log.info("PLATFORM : " + platformName);
 				driver = iosdriver;
