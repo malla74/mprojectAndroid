@@ -1,3 +1,5 @@
+
+/*
 package com.michaels.mobile.test;
 
 import static org.testng.Assert.assertTrue;
@@ -37,7 +39,8 @@ public class TC47_SignInFromRewardsProgramInfoTest extends DriverTest {
 		oAppGuidePage = new AppGuidePage(driver);
 		/*oProjectsListPage= new ProjectsListPage(driver);
 		oSignInPage = new SignInPage(driver);*/
-		oMorePage = new MorePage(driver);
+/*
+               oMorePage = new MorePage(driver);
 	//	oProjectDetailsPage=new ProjectDetailsPage(driver);
 	}
 
@@ -64,3 +67,4 @@ public class TC47_SignInFromRewardsProgramInfoTest extends DriverTest {
 	}
 
 }
+*/
