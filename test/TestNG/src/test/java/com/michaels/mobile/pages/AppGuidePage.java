@@ -18,6 +18,9 @@ public class AppGuidePage extends DriverPage{
     // Locators in AppGuide form
     @AndroidFindBy(id = "android:id/button1")
     public WebElement alert_OK_btn;
+	
+	@iOSFindBy(id = "Allow")
+	public WebElement btn_allow_pushNotifications;
     
     @FindBy(id = "icon")
     public WebElement Settings_icon;
@@ -116,8 +119,9 @@ public class AppGuidePage extends DriverPage{
                 btn_OK.click();
                 System.out.println("Ok");
 		    Thread.sleep(5000);
-                btn_DontAllow_pushNotifications.click();
-                System.out.println("DontAllow_pushNotifications");
+               // btn_DontAllow_pushNotifications.click();
+		    btn_allow_pushNotifications.click();
+                System.out.println("Allow_pushNotifications");
                // Thread.sleep(5000);
                  btn_Next.click();
                 System.out.println("Next");
