@@ -134,7 +134,7 @@ public class AppGuidePage extends DriverPage{
                 //System.out.println("AllowAlways_location");
                 
                 btn_NEXT.click();
-                System.out.println("NEXT);
+                System.out.println("NEXT");
              //btn_NEXT.click();
               //  System.out.println("NEXT");
                 
