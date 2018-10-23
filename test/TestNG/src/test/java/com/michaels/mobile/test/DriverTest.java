@@ -84,14 +84,14 @@ public abstract class DriverTest {
 		// IOS
 			capabilities.setCapability("deviceName", "iPhone");
 				capabilities.setCapability("platformName", "iOS");
-				capabilities.setCapability(MobileCapabilityType.FULL_RESET, true);
+				//capabilities.setCapability(MobileCapabilityType.FULL_RESET, true);
 				capabilities.setCapability(MobileCapabilityType.NO_RESET, false);
 				//capabilities.setCapability("app", "/Users/TestingTeam/Desktop/Michaels/iphone-23-Aug-MIKAutomation.ipa");iphone-8.3-AutomationProfile
-				capabilities.setCapability("app", "/Users/TestingTeam/Desktop/Michaels/iphone-8.3-AutomationProfile.ipa");
-				capabilities.setCapability("udid", "16b45e843e728aa644ed0672b83a7c071f6db5c5");
-				capabilities.setCapability("bundleId", "com.kony.automation.appium.wda.lib");
+				capabilities.setCapability("app", "/Users/kh916/Downloads/iphone-01-oct-2018-PROD-Tag-88ccca7.ipa");
+				capabilities.setCapability("udid", "ba95cc21606f48aae15cb3656c292e362d8ed204");
+				//capabilities.setCapability("bundleId", "com.kony.automation.appium.wda.lib");
 				capabilities.setCapability("automationName", "XCUITest"); 
-				capabilities.setCapability("xcodeOrgId", "XASDPH97N6");
+				capabilities.setCapability("xcodeOrgId", "4GYF9CX48P");
 				capabilities.setCapability("xcodeSigningId", "iPhone Developer");
 
 				iosdriver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
