@@ -21,8 +21,8 @@ public class TC03_AppGuideSignInTest extends DriverTest{
 	SignInPage oSignInPage;
 	//String USER_EMAIL =ExcelUtility.getData("TC01","Username");
 	//String PASSWORD = ExcelUtility.getData("TC01","SignInPassword");
-	String USER_EMAIL="prod@mail.com";	
-	String PASSWORD="Test1234";	
+	String USER_EMAIL="srinivas.deva@kony.com";	
+	String PASSWORD="srinivas1#";	
 	
 	@BeforeClass
 	public void setUpPage() {
