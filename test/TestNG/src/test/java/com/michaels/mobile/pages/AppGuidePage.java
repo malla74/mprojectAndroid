@@ -113,8 +113,10 @@ public class AppGuidePage extends DriverPage{
 				btnDeny.click();
 				Thread.sleep(4000);	
 				waitForAndClickElement(btnDenyLocationAccess);
-				waitForElement(alert_Cancel_btn);//turning off bluetooth
-				alert_Cancel_btn.click();
+				//waitForElement(alert_Cancel_btn);//turning off bluetooth
+				//alert_Cancel_btn.click();
+				waitForElement(btn_next_turnOn_bluetooth);//turning onn bluetooth Malla added
+				btn_next_turnOn_bluetooth.click();
 				Thread.sleep(5000);				
 				waitForAndClickElement(btn_Next);
 				waitForAndClickElement(btn_Next);
@@ -143,7 +145,8 @@ public boolean verifySignIn(){
 				//btn_allowAlways_location.click();
 				btn_dontAllow_location.click();
 				btn_Next.click();
-				btn_next_turnOn_bluetooth.click();
+				btn_next_turnOn_
+					.click();
 				waitForElement(btn_SignIn);
 				btn_SignIn.click();
 				flag=true;
@@ -158,7 +161,7 @@ public boolean verifySignIn(){
 				btnDeny.click();
 				Thread.sleep(4000);	
 				waitForAndClickElement(btnDenyLocationAccess);
-				waitForElement(alert_Cancel_btn);//turning off bluetooth
+				waitForElement(alert_Cancel_btn);//turning off blue						
 				alert_Cancel_btn.click();
 				Thread.sleep(5000);				
 				waitForAndClickElement(btn_Next);
